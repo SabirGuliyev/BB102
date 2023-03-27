@@ -1,0 +1,15 @@
+C:\Users\sabir\OneDrive\Рабочий стол\bb102First\bb102First\bin\Debug\net6.0\bb102First.exe
+C:\Users\sabir\OneDrive\Рабочий стол\bb102First\bb102First\bin\Debug\net6.0\bb102First.deps.json
+C:\Users\sabir\OneDrive\Рабочий стол\bb102First\bb102First\bin\Debug\net6.0\bb102First.runtimeconfig.json
+C:\Users\sabir\OneDrive\Рабочий стол\bb102First\bb102First\bin\Debug\net6.0\bb102First.dll
+C:\Users\sabir\OneDrive\Рабочий стол\bb102First\bb102First\bin\Debug\net6.0\bb102First.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\bb102First\bb102First\obj\Debug\net6.0\bb102First.csproj.AssemblyReference.cache
+C:\Users\sabir\OneDrive\Рабочий стол\bb102First\bb102First\obj\Debug\net6.0\bb102First.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sabir\OneDrive\Рабочий стол\bb102First\bb102First\obj\Debug\net6.0\bb102First.AssemblyInfoInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\bb102First\bb102First\obj\Debug\net6.0\bb102First.AssemblyInfo.cs
+C:\Users\sabir\OneDrive\Рабочий стол\bb102First\bb102First\obj\Debug\net6.0\bb102First.csproj.CoreCompileInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\bb102First\bb102First\obj\Debug\net6.0\bb102First.dll
+C:\Users\sabir\OneDrive\Рабочий стол\bb102First\bb102First\obj\Debug\net6.0\refint\bb102First.dll
+C:\Users\sabir\OneDrive\Рабочий стол\bb102First\bb102First\obj\Debug\net6.0\bb102First.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\bb102First\bb102First\obj\Debug\net6.0\bb102First.genruntimeconfig.cache
+C:\Users\sabir\OneDrive\Рабочий стол\bb102First\bb102First\obj\Debug\net6.0\ref\bb102First.dll
