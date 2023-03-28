@@ -1,0 +1,15 @@
+C:\Users\sabir\OneDrive\Рабочий стол\Array_DataTypes\Array_DataTypes\bin\Debug\net6.0\Array_DataTypes.exe
+C:\Users\sabir\OneDrive\Рабочий стол\Array_DataTypes\Array_DataTypes\bin\Debug\net6.0\Array_DataTypes.deps.json
+C:\Users\sabir\OneDrive\Рабочий стол\Array_DataTypes\Array_DataTypes\bin\Debug\net6.0\Array_DataTypes.runtimeconfig.json
+C:\Users\sabir\OneDrive\Рабочий стол\Array_DataTypes\Array_DataTypes\bin\Debug\net6.0\Array_DataTypes.dll
+C:\Users\sabir\OneDrive\Рабочий стол\Array_DataTypes\Array_DataTypes\bin\Debug\net6.0\Array_DataTypes.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\Array_DataTypes\Array_DataTypes\obj\Debug\net6.0\Array_DataTypes.csproj.AssemblyReference.cache
+C:\Users\sabir\OneDrive\Рабочий стол\Array_DataTypes\Array_DataTypes\obj\Debug\net6.0\Array_DataTypes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sabir\OneDrive\Рабочий стол\Array_DataTypes\Array_DataTypes\obj\Debug\net6.0\Array_DataTypes.AssemblyInfoInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\Array_DataTypes\Array_DataTypes\obj\Debug\net6.0\Array_DataTypes.AssemblyInfo.cs
+C:\Users\sabir\OneDrive\Рабочий стол\Array_DataTypes\Array_DataTypes\obj\Debug\net6.0\Array_DataTypes.csproj.CoreCompileInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\Array_DataTypes\Array_DataTypes\obj\Debug\net6.0\Array_DataTypes.dll
+C:\Users\sabir\OneDrive\Рабочий стол\Array_DataTypes\Array_DataTypes\obj\Debug\net6.0\refint\Array_DataTypes.dll
+C:\Users\sabir\OneDrive\Рабочий стол\Array_DataTypes\Array_DataTypes\obj\Debug\net6.0\Array_DataTypes.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\Array_DataTypes\Array_DataTypes\obj\Debug\net6.0\Array_DataTypes.genruntimeconfig.cache
+C:\Users\sabir\OneDrive\Рабочий стол\Array_DataTypes\Array_DataTypes\obj\Debug\net6.0\ref\Array_DataTypes.dll

@@ -1,0 +1,15 @@
+C:\Users\sabir\OneDrive\Рабочий стол\Methods_Overload\Methods_Overload\obj\Debug\net6.0\Methods_Overload.csproj.AssemblyReference.cache
+C:\Users\sabir\OneDrive\Рабочий стол\Methods_Overload\Methods_Overload\obj\Debug\net6.0\Methods_Overload.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sabir\OneDrive\Рабочий стол\Methods_Overload\Methods_Overload\obj\Debug\net6.0\Methods_Overload.AssemblyInfoInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\Methods_Overload\Methods_Overload\obj\Debug\net6.0\Methods_Overload.AssemblyInfo.cs
+C:\Users\sabir\OneDrive\Рабочий стол\Methods_Overload\Methods_Overload\obj\Debug\net6.0\Methods_Overload.csproj.CoreCompileInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\Methods_Overload\Methods_Overload\bin\Debug\net6.0\Methods_Overload.exe
+C:\Users\sabir\OneDrive\Рабочий стол\Methods_Overload\Methods_Overload\bin\Debug\net6.0\Methods_Overload.deps.json
+C:\Users\sabir\OneDrive\Рабочий стол\Methods_Overload\Methods_Overload\bin\Debug\net6.0\Methods_Overload.runtimeconfig.json
+C:\Users\sabir\OneDrive\Рабочий стол\Methods_Overload\Methods_Overload\bin\Debug\net6.0\Methods_Overload.dll
+C:\Users\sabir\OneDrive\Рабочий стол\Methods_Overload\Methods_Overload\bin\Debug\net6.0\Methods_Overload.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\Methods_Overload\Methods_Overload\obj\Debug\net6.0\Methods_Overload.dll
+C:\Users\sabir\OneDrive\Рабочий стол\Methods_Overload\Methods_Overload\obj\Debug\net6.0\refint\Methods_Overload.dll
+C:\Users\sabir\OneDrive\Рабочий стол\Methods_Overload\Methods_Overload\obj\Debug\net6.0\Methods_Overload.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\Methods_Overload\Methods_Overload\obj\Debug\net6.0\Methods_Overload.genruntimeconfig.cache
+C:\Users\sabir\OneDrive\Рабочий стол\Methods_Overload\Methods_Overload\obj\Debug\net6.0\ref\Methods_Overload.dll
