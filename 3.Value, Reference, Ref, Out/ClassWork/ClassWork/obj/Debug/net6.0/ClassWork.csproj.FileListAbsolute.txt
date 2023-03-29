@@ -1,0 +1,15 @@
+C:\Users\sabir\OneDrive\Рабочий стол\ClassWork\ClassWork\bin\Debug\net6.0\ClassWork.exe
+C:\Users\sabir\OneDrive\Рабочий стол\ClassWork\ClassWork\bin\Debug\net6.0\ClassWork.deps.json
+C:\Users\sabir\OneDrive\Рабочий стол\ClassWork\ClassWork\bin\Debug\net6.0\ClassWork.runtimeconfig.json
+C:\Users\sabir\OneDrive\Рабочий стол\ClassWork\ClassWork\bin\Debug\net6.0\ClassWork.dll
+C:\Users\sabir\OneDrive\Рабочий стол\ClassWork\ClassWork\bin\Debug\net6.0\ClassWork.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\ClassWork\ClassWork\obj\Debug\net6.0\ClassWork.csproj.AssemblyReference.cache
+C:\Users\sabir\OneDrive\Рабочий стол\ClassWork\ClassWork\obj\Debug\net6.0\ClassWork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sabir\OneDrive\Рабочий стол\ClassWork\ClassWork\obj\Debug\net6.0\ClassWork.AssemblyInfoInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\ClassWork\ClassWork\obj\Debug\net6.0\ClassWork.AssemblyInfo.cs
+C:\Users\sabir\OneDrive\Рабочий стол\ClassWork\ClassWork\obj\Debug\net6.0\ClassWork.csproj.CoreCompileInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\ClassWork\ClassWork\obj\Debug\net6.0\ClassWork.dll
+C:\Users\sabir\OneDrive\Рабочий стол\ClassWork\ClassWork\obj\Debug\net6.0\refint\ClassWork.dll
+C:\Users\sabir\OneDrive\Рабочий стол\ClassWork\ClassWork\obj\Debug\net6.0\ClassWork.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\ClassWork\ClassWork\obj\Debug\net6.0\ClassWork.genruntimeconfig.cache
+C:\Users\sabir\OneDrive\Рабочий стол\ClassWork\ClassWork\obj\Debug\net6.0\ref\ClassWork.dll
