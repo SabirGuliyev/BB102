@@ -1,0 +1,15 @@
+C:\Users\sabir\OneDrive\Рабочий стол\Base_String_Regex_Array\Base_String_Regex_Array\bin\Debug\net6.0\Base_String_Regex_Array.exe
+C:\Users\sabir\OneDrive\Рабочий стол\Base_String_Regex_Array\Base_String_Regex_Array\bin\Debug\net6.0\Base_String_Regex_Array.deps.json
+C:\Users\sabir\OneDrive\Рабочий стол\Base_String_Regex_Array\Base_String_Regex_Array\bin\Debug\net6.0\Base_String_Regex_Array.runtimeconfig.json
+C:\Users\sabir\OneDrive\Рабочий стол\Base_String_Regex_Array\Base_String_Regex_Array\bin\Debug\net6.0\Base_String_Regex_Array.dll
+C:\Users\sabir\OneDrive\Рабочий стол\Base_String_Regex_Array\Base_String_Regex_Array\bin\Debug\net6.0\Base_String_Regex_Array.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\Base_String_Regex_Array\Base_String_Regex_Array\obj\Debug\net6.0\Base_String_Regex_Array.csproj.AssemblyReference.cache
+C:\Users\sabir\OneDrive\Рабочий стол\Base_String_Regex_Array\Base_String_Regex_Array\obj\Debug\net6.0\Base_String_Regex_Array.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sabir\OneDrive\Рабочий стол\Base_String_Regex_Array\Base_String_Regex_Array\obj\Debug\net6.0\Base_String_Regex_Array.AssemblyInfoInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\Base_String_Regex_Array\Base_String_Regex_Array\obj\Debug\net6.0\Base_String_Regex_Array.AssemblyInfo.cs
+C:\Users\sabir\OneDrive\Рабочий стол\Base_String_Regex_Array\Base_String_Regex_Array\obj\Debug\net6.0\Base_String_Regex_Array.csproj.CoreCompileInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\Base_String_Regex_Array\Base_String_Regex_Array\obj\Debug\net6.0\Base_String_Regex_Array.dll
+C:\Users\sabir\OneDrive\Рабочий стол\Base_String_Regex_Array\Base_String_Regex_Array\obj\Debug\net6.0\refint\Base_String_Regex_Array.dll
+C:\Users\sabir\OneDrive\Рабочий стол\Base_String_Regex_Array\Base_String_Regex_Array\obj\Debug\net6.0\Base_String_Regex_Array.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\Base_String_Regex_Array\Base_String_Regex_Array\obj\Debug\net6.0\Base_String_Regex_Array.genruntimeconfig.cache
+C:\Users\sabir\OneDrive\Рабочий стол\Base_String_Regex_Array\Base_String_Regex_Array\obj\Debug\net6.0\ref\Base_String_Regex_Array.dll
