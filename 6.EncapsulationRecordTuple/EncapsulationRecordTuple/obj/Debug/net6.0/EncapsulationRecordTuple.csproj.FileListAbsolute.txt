@@ -1,0 +1,15 @@
+C:\Users\sabir\OneDrive\Рабочий стол\EncapsulationRecordTuple\EncapsulationRecordTuple\bin\Debug\net6.0\EncapsulationRecordTuple.exe
+C:\Users\sabir\OneDrive\Рабочий стол\EncapsulationRecordTuple\EncapsulationRecordTuple\bin\Debug\net6.0\EncapsulationRecordTuple.deps.json
+C:\Users\sabir\OneDrive\Рабочий стол\EncapsulationRecordTuple\EncapsulationRecordTuple\bin\Debug\net6.0\EncapsulationRecordTuple.runtimeconfig.json
+C:\Users\sabir\OneDrive\Рабочий стол\EncapsulationRecordTuple\EncapsulationRecordTuple\bin\Debug\net6.0\EncapsulationRecordTuple.dll
+C:\Users\sabir\OneDrive\Рабочий стол\EncapsulationRecordTuple\EncapsulationRecordTuple\bin\Debug\net6.0\EncapsulationRecordTuple.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\EncapsulationRecordTuple\EncapsulationRecordTuple\obj\Debug\net6.0\EncapsulationRecordTuple.csproj.AssemblyReference.cache
+C:\Users\sabir\OneDrive\Рабочий стол\EncapsulationRecordTuple\EncapsulationRecordTuple\obj\Debug\net6.0\EncapsulationRecordTuple.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sabir\OneDrive\Рабочий стол\EncapsulationRecordTuple\EncapsulationRecordTuple\obj\Debug\net6.0\EncapsulationRecordTuple.AssemblyInfoInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\EncapsulationRecordTuple\EncapsulationRecordTuple\obj\Debug\net6.0\EncapsulationRecordTuple.AssemblyInfo.cs
+C:\Users\sabir\OneDrive\Рабочий стол\EncapsulationRecordTuple\EncapsulationRecordTuple\obj\Debug\net6.0\EncapsulationRecordTuple.csproj.CoreCompileInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\EncapsulationRecordTuple\EncapsulationRecordTuple\obj\Debug\net6.0\EncapsulationRecordTuple.dll
+C:\Users\sabir\OneDrive\Рабочий стол\EncapsulationRecordTuple\EncapsulationRecordTuple\obj\Debug\net6.0\refint\EncapsulationRecordTuple.dll
+C:\Users\sabir\OneDrive\Рабочий стол\EncapsulationRecordTuple\EncapsulationRecordTuple\obj\Debug\net6.0\EncapsulationRecordTuple.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\EncapsulationRecordTuple\EncapsulationRecordTuple\obj\Debug\net6.0\EncapsulationRecordTuple.genruntimeconfig.cache
+C:\Users\sabir\OneDrive\Рабочий стол\EncapsulationRecordTuple\EncapsulationRecordTuple\obj\Debug\net6.0\ref\EncapsulationRecordTuple.dll
