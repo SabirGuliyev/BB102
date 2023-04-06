@@ -1,0 +1,15 @@
+C:\Users\sabir\OneDrive\Рабочий стол\SealedInterfaceStatic\SealedInterfaceStatic\bin\Debug\net6.0\SealedInterfaceStatic.exe
+C:\Users\sabir\OneDrive\Рабочий стол\SealedInterfaceStatic\SealedInterfaceStatic\bin\Debug\net6.0\SealedInterfaceStatic.deps.json
+C:\Users\sabir\OneDrive\Рабочий стол\SealedInterfaceStatic\SealedInterfaceStatic\bin\Debug\net6.0\SealedInterfaceStatic.runtimeconfig.json
+C:\Users\sabir\OneDrive\Рабочий стол\SealedInterfaceStatic\SealedInterfaceStatic\bin\Debug\net6.0\SealedInterfaceStatic.dll
+C:\Users\sabir\OneDrive\Рабочий стол\SealedInterfaceStatic\SealedInterfaceStatic\bin\Debug\net6.0\SealedInterfaceStatic.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\SealedInterfaceStatic\SealedInterfaceStatic\obj\Debug\net6.0\SealedInterfaceStatic.csproj.AssemblyReference.cache
+C:\Users\sabir\OneDrive\Рабочий стол\SealedInterfaceStatic\SealedInterfaceStatic\obj\Debug\net6.0\SealedInterfaceStatic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sabir\OneDrive\Рабочий стол\SealedInterfaceStatic\SealedInterfaceStatic\obj\Debug\net6.0\SealedInterfaceStatic.AssemblyInfoInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\SealedInterfaceStatic\SealedInterfaceStatic\obj\Debug\net6.0\SealedInterfaceStatic.AssemblyInfo.cs
+C:\Users\sabir\OneDrive\Рабочий стол\SealedInterfaceStatic\SealedInterfaceStatic\obj\Debug\net6.0\SealedInterfaceStatic.csproj.CoreCompileInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\SealedInterfaceStatic\SealedInterfaceStatic\obj\Debug\net6.0\SealedInterfaceStatic.dll
+C:\Users\sabir\OneDrive\Рабочий стол\SealedInterfaceStatic\SealedInterfaceStatic\obj\Debug\net6.0\refint\SealedInterfaceStatic.dll
+C:\Users\sabir\OneDrive\Рабочий стол\SealedInterfaceStatic\SealedInterfaceStatic\obj\Debug\net6.0\SealedInterfaceStatic.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\SealedInterfaceStatic\SealedInterfaceStatic\obj\Debug\net6.0\SealedInterfaceStatic.genruntimeconfig.cache
+C:\Users\sabir\OneDrive\Рабочий стол\SealedInterfaceStatic\SealedInterfaceStatic\obj\Debug\net6.0\ref\SealedInterfaceStatic.dll
