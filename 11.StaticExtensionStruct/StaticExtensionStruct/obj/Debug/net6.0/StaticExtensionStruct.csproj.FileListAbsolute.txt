@@ -1,0 +1,15 @@
+C:\Users\sabir\OneDrive\Рабочий стол\StaticExtensionStruct\StaticExtensionStruct\bin\Debug\net6.0\StaticExtensionStruct.exe
+C:\Users\sabir\OneDrive\Рабочий стол\StaticExtensionStruct\StaticExtensionStruct\bin\Debug\net6.0\StaticExtensionStruct.deps.json
+C:\Users\sabir\OneDrive\Рабочий стол\StaticExtensionStruct\StaticExtensionStruct\bin\Debug\net6.0\StaticExtensionStruct.runtimeconfig.json
+C:\Users\sabir\OneDrive\Рабочий стол\StaticExtensionStruct\StaticExtensionStruct\bin\Debug\net6.0\StaticExtensionStruct.dll
+C:\Users\sabir\OneDrive\Рабочий стол\StaticExtensionStruct\StaticExtensionStruct\bin\Debug\net6.0\StaticExtensionStruct.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\StaticExtensionStruct\StaticExtensionStruct\obj\Debug\net6.0\StaticExtensionStruct.csproj.AssemblyReference.cache
+C:\Users\sabir\OneDrive\Рабочий стол\StaticExtensionStruct\StaticExtensionStruct\obj\Debug\net6.0\StaticExtensionStruct.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sabir\OneDrive\Рабочий стол\StaticExtensionStruct\StaticExtensionStruct\obj\Debug\net6.0\StaticExtensionStruct.AssemblyInfoInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\StaticExtensionStruct\StaticExtensionStruct\obj\Debug\net6.0\StaticExtensionStruct.AssemblyInfo.cs
+C:\Users\sabir\OneDrive\Рабочий стол\StaticExtensionStruct\StaticExtensionStruct\obj\Debug\net6.0\StaticExtensionStruct.csproj.CoreCompileInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\StaticExtensionStruct\StaticExtensionStruct\obj\Debug\net6.0\StaticExtensionStruct.dll
+C:\Users\sabir\OneDrive\Рабочий стол\StaticExtensionStruct\StaticExtensionStruct\obj\Debug\net6.0\refint\StaticExtensionStruct.dll
+C:\Users\sabir\OneDrive\Рабочий стол\StaticExtensionStruct\StaticExtensionStruct\obj\Debug\net6.0\StaticExtensionStruct.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\StaticExtensionStruct\StaticExtensionStruct\obj\Debug\net6.0\StaticExtensionStruct.genruntimeconfig.cache
+C:\Users\sabir\OneDrive\Рабочий стол\StaticExtensionStruct\StaticExtensionStruct\obj\Debug\net6.0\ref\StaticExtensionStruct.dll
