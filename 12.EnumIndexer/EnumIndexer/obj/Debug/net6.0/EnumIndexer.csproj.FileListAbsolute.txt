@@ -1,0 +1,15 @@
+C:\Users\sabir\OneDrive\Рабочий стол\EnumIndexer\EnumIndexer\bin\Debug\net6.0\EnumIndexer.exe
+C:\Users\sabir\OneDrive\Рабочий стол\EnumIndexer\EnumIndexer\bin\Debug\net6.0\EnumIndexer.deps.json
+C:\Users\sabir\OneDrive\Рабочий стол\EnumIndexer\EnumIndexer\bin\Debug\net6.0\EnumIndexer.runtimeconfig.json
+C:\Users\sabir\OneDrive\Рабочий стол\EnumIndexer\EnumIndexer\bin\Debug\net6.0\EnumIndexer.dll
+C:\Users\sabir\OneDrive\Рабочий стол\EnumIndexer\EnumIndexer\bin\Debug\net6.0\EnumIndexer.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\EnumIndexer\EnumIndexer\obj\Debug\net6.0\EnumIndexer.csproj.AssemblyReference.cache
+C:\Users\sabir\OneDrive\Рабочий стол\EnumIndexer\EnumIndexer\obj\Debug\net6.0\EnumIndexer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sabir\OneDrive\Рабочий стол\EnumIndexer\EnumIndexer\obj\Debug\net6.0\EnumIndexer.AssemblyInfoInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\EnumIndexer\EnumIndexer\obj\Debug\net6.0\EnumIndexer.AssemblyInfo.cs
+C:\Users\sabir\OneDrive\Рабочий стол\EnumIndexer\EnumIndexer\obj\Debug\net6.0\EnumIndexer.csproj.CoreCompileInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\EnumIndexer\EnumIndexer\obj\Debug\net6.0\EnumIndexer.dll
+C:\Users\sabir\OneDrive\Рабочий стол\EnumIndexer\EnumIndexer\obj\Debug\net6.0\refint\EnumIndexer.dll
+C:\Users\sabir\OneDrive\Рабочий стол\EnumIndexer\EnumIndexer\obj\Debug\net6.0\EnumIndexer.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\EnumIndexer\EnumIndexer\obj\Debug\net6.0\EnumIndexer.genruntimeconfig.cache
+C:\Users\sabir\OneDrive\Рабочий стол\EnumIndexer\EnumIndexer\obj\Debug\net6.0\ref\EnumIndexer.dll
