@@ -1,0 +1,15 @@
+C:\Users\sabir\OneDrive\Рабочий стол\ExceptionReflection\ExceptionReflection\bin\Debug\net6.0\ExceptionReflection.exe
+C:\Users\sabir\OneDrive\Рабочий стол\ExceptionReflection\ExceptionReflection\bin\Debug\net6.0\ExceptionReflection.deps.json
+C:\Users\sabir\OneDrive\Рабочий стол\ExceptionReflection\ExceptionReflection\bin\Debug\net6.0\ExceptionReflection.runtimeconfig.json
+C:\Users\sabir\OneDrive\Рабочий стол\ExceptionReflection\ExceptionReflection\bin\Debug\net6.0\ExceptionReflection.dll
+C:\Users\sabir\OneDrive\Рабочий стол\ExceptionReflection\ExceptionReflection\bin\Debug\net6.0\ExceptionReflection.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\ExceptionReflection\ExceptionReflection\obj\Debug\net6.0\ExceptionReflection.csproj.AssemblyReference.cache
+C:\Users\sabir\OneDrive\Рабочий стол\ExceptionReflection\ExceptionReflection\obj\Debug\net6.0\ExceptionReflection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sabir\OneDrive\Рабочий стол\ExceptionReflection\ExceptionReflection\obj\Debug\net6.0\ExceptionReflection.AssemblyInfoInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\ExceptionReflection\ExceptionReflection\obj\Debug\net6.0\ExceptionReflection.AssemblyInfo.cs
+C:\Users\sabir\OneDrive\Рабочий стол\ExceptionReflection\ExceptionReflection\obj\Debug\net6.0\ExceptionReflection.csproj.CoreCompileInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\ExceptionReflection\ExceptionReflection\obj\Debug\net6.0\ExceptionReflection.dll
+C:\Users\sabir\OneDrive\Рабочий стол\ExceptionReflection\ExceptionReflection\obj\Debug\net6.0\refint\ExceptionReflection.dll
+C:\Users\sabir\OneDrive\Рабочий стол\ExceptionReflection\ExceptionReflection\obj\Debug\net6.0\ExceptionReflection.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\ExceptionReflection\ExceptionReflection\obj\Debug\net6.0\ExceptionReflection.genruntimeconfig.cache
+C:\Users\sabir\OneDrive\Рабочий стол\ExceptionReflection\ExceptionReflection\obj\Debug\net6.0\ref\ExceptionReflection.dll
