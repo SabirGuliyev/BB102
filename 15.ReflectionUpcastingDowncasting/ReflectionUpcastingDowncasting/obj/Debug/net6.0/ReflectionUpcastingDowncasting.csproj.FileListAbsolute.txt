@@ -1,0 +1,15 @@
+C:\Users\sabir\OneDrive\Рабочий стол\ReflectionUpcastingDowncasting\ReflectionUpcastingDowncasting\bin\Debug\net6.0\ReflectionUpcastingDowncasting.exe
+C:\Users\sabir\OneDrive\Рабочий стол\ReflectionUpcastingDowncasting\ReflectionUpcastingDowncasting\bin\Debug\net6.0\ReflectionUpcastingDowncasting.deps.json
+C:\Users\sabir\OneDrive\Рабочий стол\ReflectionUpcastingDowncasting\ReflectionUpcastingDowncasting\bin\Debug\net6.0\ReflectionUpcastingDowncasting.runtimeconfig.json
+C:\Users\sabir\OneDrive\Рабочий стол\ReflectionUpcastingDowncasting\ReflectionUpcastingDowncasting\bin\Debug\net6.0\ReflectionUpcastingDowncasting.dll
+C:\Users\sabir\OneDrive\Рабочий стол\ReflectionUpcastingDowncasting\ReflectionUpcastingDowncasting\bin\Debug\net6.0\ReflectionUpcastingDowncasting.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\ReflectionUpcastingDowncasting\ReflectionUpcastingDowncasting\obj\Debug\net6.0\ReflectionUpcastingDowncasting.csproj.AssemblyReference.cache
+C:\Users\sabir\OneDrive\Рабочий стол\ReflectionUpcastingDowncasting\ReflectionUpcastingDowncasting\obj\Debug\net6.0\ReflectionUpcastingDowncasting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sabir\OneDrive\Рабочий стол\ReflectionUpcastingDowncasting\ReflectionUpcastingDowncasting\obj\Debug\net6.0\ReflectionUpcastingDowncasting.AssemblyInfoInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\ReflectionUpcastingDowncasting\ReflectionUpcastingDowncasting\obj\Debug\net6.0\ReflectionUpcastingDowncasting.AssemblyInfo.cs
+C:\Users\sabir\OneDrive\Рабочий стол\ReflectionUpcastingDowncasting\ReflectionUpcastingDowncasting\obj\Debug\net6.0\ReflectionUpcastingDowncasting.csproj.CoreCompileInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\ReflectionUpcastingDowncasting\ReflectionUpcastingDowncasting\obj\Debug\net6.0\ReflectionUpcastingDowncasting.dll
+C:\Users\sabir\OneDrive\Рабочий стол\ReflectionUpcastingDowncasting\ReflectionUpcastingDowncasting\obj\Debug\net6.0\refint\ReflectionUpcastingDowncasting.dll
+C:\Users\sabir\OneDrive\Рабочий стол\ReflectionUpcastingDowncasting\ReflectionUpcastingDowncasting\obj\Debug\net6.0\ReflectionUpcastingDowncasting.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\ReflectionUpcastingDowncasting\ReflectionUpcastingDowncasting\obj\Debug\net6.0\ReflectionUpcastingDowncasting.genruntimeconfig.cache
+C:\Users\sabir\OneDrive\Рабочий стол\ReflectionUpcastingDowncasting\ReflectionUpcastingDowncasting\obj\Debug\net6.0\ref\ReflectionUpcastingDowncasting.dll
