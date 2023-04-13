@@ -8,7 +8,7 @@ namespace ReflectionUpcastingDowncasting.Models
 {
     internal abstract class Animal
     {
-        public byte AvgLifeTime { get; set; }
+        public byte AvgLifeTime;
         public virtual void Eat()
         {
             Console.WriteLine("Yem ile qidalanir");

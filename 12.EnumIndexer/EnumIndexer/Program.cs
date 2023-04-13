@@ -94,14 +94,21 @@ namespace EnumIndexer
 
 
 
-            ListInt nums = new ListInt(2);
-            ListInt nums2= new ListInt(5,6,7,8,9,10);
-            nums2.Add(15);
-            //nums2[6] = 20;
-            for (int i = 0; i < nums2.Length; i++)
-            {
-                Console.WriteLine(nums2[i]);
-            }
+            //ListInt nums = new ListInt(2);
+            //ListInt nums2= new ListInt(5,6,7,8,9,10);
+            //nums2.Add(15);
+            ////nums2[6] = 20;
+            //for (int i = 0; i < nums2.Length; i++)
+            //{
+            //    Console.WriteLine(nums2[i]);
+            //}
+            CustomList<string> customList=new CustomList<string>();
+
+            customList.Add("salam");
+            customList.Add("Hello");
+
+            CustomList<bool> customList1 = new CustomList<bool>();
+            customList1.Add(true);
 
            
             //Console.WriteLine(nums[0]);

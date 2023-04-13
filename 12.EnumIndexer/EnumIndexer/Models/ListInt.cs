@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace EnumIndexer.Models
 {
-    internal class ListInt
+    internal class CustomList<T>
     {
-        private int[] _arr;
+        private T[] _arr;
         
         public int Length { 
             get
@@ -16,7 +16,7 @@ namespace EnumIndexer.Models
              return _arr.Length;
             } 
         }
-        public int this[int index] 
+        public T this[int index] 
         {
             get 
             { 
@@ -42,23 +42,23 @@ namespace EnumIndexer.Models
         }
 
 
-        public ListInt()
+        public CustomList()
         {
-            _arr = new int[0];
+            _arr = new T[0];
         }
-        public ListInt(int length)
+        public CustomList(int length)
         {
-            _arr = new int[length];
+            _arr = new T[length];
         }
-        public ListInt(params int[] numbers)
+        public CustomList(params T[] numbers)
         {
-            _arr = new int[numbers.Length];
+            _arr = new T[numbers.Length];
             for (int i = 0; i < numbers.Length; i++)
             {
                 _arr[i] = numbers[i];
             }
         }
-        public void Add(int num)
+        public void Add(T num)
         {
             Array.Resize(ref _arr, _arr.Length + 1);
             _arr[Length-1] = num;

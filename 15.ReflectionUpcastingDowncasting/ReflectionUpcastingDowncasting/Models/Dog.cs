@@ -8,7 +8,7 @@ namespace ReflectionUpcastingDowncasting.Models
 {
     internal class Dog : Animal
     {
-        public string Name { get; set; }
+        public string Name;
         public override void MakeSound()
         {
             Console.WriteLine("Hav Hav");

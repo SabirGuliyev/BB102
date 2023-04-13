@@ -64,10 +64,20 @@ namespace ReflectionUpcastingDowncasting
 
 
             #region Upcasting,boxing - Dowcasting,unboxing
-            //Dog dog = new Dog { AvgLifeTime = 8,Name="Bobik" }; //implicit
-            //Eagle eagle= new Eagle { AvgLifeTime=12};
+            Dog dog = new Dog { AvgLifeTime = 8, Name = "Bobik" }; //implicit
+            Eagle eagle = new Eagle { AvgLifeTime = 12 };
 
-            //object[] zoo = { dog, eagle,"Salam",45,45d };
+            Animal[] zoo = {dog,eagle};
+            foreach (Animal a in zoo)
+            {
+              var type=a.GetType();
+                foreach (FieldInfo item in type.GetFields(BindingFlags.Public|BindingFlags.Instance))
+                {
+                    Console.WriteLine(item.GetValue(a));
+                    
+                }
+
+            }
 
             //Dog dog4 = (Dog)zoo[0];
 
