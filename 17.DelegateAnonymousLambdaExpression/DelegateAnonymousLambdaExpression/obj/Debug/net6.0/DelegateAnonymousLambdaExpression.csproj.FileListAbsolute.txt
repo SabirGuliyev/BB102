@@ -1,0 +1,15 @@
+C:\Users\sabir\OneDrive\Рабочий стол\DelegateAnonymousLambdaExpression\DelegateAnonymousLambdaExpression\bin\Debug\net6.0\DelegateAnonymousLambdaExpression.exe
+C:\Users\sabir\OneDrive\Рабочий стол\DelegateAnonymousLambdaExpression\DelegateAnonymousLambdaExpression\bin\Debug\net6.0\DelegateAnonymousLambdaExpression.deps.json
+C:\Users\sabir\OneDrive\Рабочий стол\DelegateAnonymousLambdaExpression\DelegateAnonymousLambdaExpression\bin\Debug\net6.0\DelegateAnonymousLambdaExpression.runtimeconfig.json
+C:\Users\sabir\OneDrive\Рабочий стол\DelegateAnonymousLambdaExpression\DelegateAnonymousLambdaExpression\bin\Debug\net6.0\DelegateAnonymousLambdaExpression.dll
+C:\Users\sabir\OneDrive\Рабочий стол\DelegateAnonymousLambdaExpression\DelegateAnonymousLambdaExpression\bin\Debug\net6.0\DelegateAnonymousLambdaExpression.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\DelegateAnonymousLambdaExpression\DelegateAnonymousLambdaExpression\obj\Debug\net6.0\DelegateAnonymousLambdaExpression.csproj.AssemblyReference.cache
+C:\Users\sabir\OneDrive\Рабочий стол\DelegateAnonymousLambdaExpression\DelegateAnonymousLambdaExpression\obj\Debug\net6.0\DelegateAnonymousLambdaExpression.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sabir\OneDrive\Рабочий стол\DelegateAnonymousLambdaExpression\DelegateAnonymousLambdaExpression\obj\Debug\net6.0\DelegateAnonymousLambdaExpression.AssemblyInfoInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\DelegateAnonymousLambdaExpression\DelegateAnonymousLambdaExpression\obj\Debug\net6.0\DelegateAnonymousLambdaExpression.AssemblyInfo.cs
+C:\Users\sabir\OneDrive\Рабочий стол\DelegateAnonymousLambdaExpression\DelegateAnonymousLambdaExpression\obj\Debug\net6.0\DelegateAnonymousLambdaExpression.csproj.CoreCompileInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\DelegateAnonymousLambdaExpression\DelegateAnonymousLambdaExpression\obj\Debug\net6.0\DelegateAnonymousLambdaExpression.dll
+C:\Users\sabir\OneDrive\Рабочий стол\DelegateAnonymousLambdaExpression\DelegateAnonymousLambdaExpression\obj\Debug\net6.0\refint\DelegateAnonymousLambdaExpression.dll
+C:\Users\sabir\OneDrive\Рабочий стол\DelegateAnonymousLambdaExpression\DelegateAnonymousLambdaExpression\obj\Debug\net6.0\DelegateAnonymousLambdaExpression.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\DelegateAnonymousLambdaExpression\DelegateAnonymousLambdaExpression\obj\Debug\net6.0\DelegateAnonymousLambdaExpression.genruntimeconfig.cache
+C:\Users\sabir\OneDrive\Рабочий стол\DelegateAnonymousLambdaExpression\DelegateAnonymousLambdaExpression\obj\Debug\net6.0\ref\DelegateAnonymousLambdaExpression.dll
