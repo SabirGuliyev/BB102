@@ -1,0 +1,15 @@
+C:\Users\sabir\OneDrive\Рабочий стол\ThreadAsyncTask\ThreadAsyncTask\obj\Debug\net6.0\ThreadAsyncTask.csproj.AssemblyReference.cache
+C:\Users\sabir\OneDrive\Рабочий стол\ThreadAsyncTask\ThreadAsyncTask\obj\Debug\net6.0\ThreadAsyncTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sabir\OneDrive\Рабочий стол\ThreadAsyncTask\ThreadAsyncTask\obj\Debug\net6.0\ThreadAsyncTask.AssemblyInfoInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\ThreadAsyncTask\ThreadAsyncTask\obj\Debug\net6.0\ThreadAsyncTask.AssemblyInfo.cs
+C:\Users\sabir\OneDrive\Рабочий стол\ThreadAsyncTask\ThreadAsyncTask\obj\Debug\net6.0\ThreadAsyncTask.csproj.CoreCompileInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\ThreadAsyncTask\ThreadAsyncTask\bin\Debug\net6.0\ThreadAsyncTask.exe
+C:\Users\sabir\OneDrive\Рабочий стол\ThreadAsyncTask\ThreadAsyncTask\bin\Debug\net6.0\ThreadAsyncTask.deps.json
+C:\Users\sabir\OneDrive\Рабочий стол\ThreadAsyncTask\ThreadAsyncTask\bin\Debug\net6.0\ThreadAsyncTask.runtimeconfig.json
+C:\Users\sabir\OneDrive\Рабочий стол\ThreadAsyncTask\ThreadAsyncTask\bin\Debug\net6.0\ThreadAsyncTask.dll
+C:\Users\sabir\OneDrive\Рабочий стол\ThreadAsyncTask\ThreadAsyncTask\bin\Debug\net6.0\ThreadAsyncTask.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\ThreadAsyncTask\ThreadAsyncTask\obj\Debug\net6.0\ThreadAsyncTask.dll
+C:\Users\sabir\OneDrive\Рабочий стол\ThreadAsyncTask\ThreadAsyncTask\obj\Debug\net6.0\refint\ThreadAsyncTask.dll
+C:\Users\sabir\OneDrive\Рабочий стол\ThreadAsyncTask\ThreadAsyncTask\obj\Debug\net6.0\ThreadAsyncTask.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\ThreadAsyncTask\ThreadAsyncTask\obj\Debug\net6.0\ThreadAsyncTask.genruntimeconfig.cache
+C:\Users\sabir\OneDrive\Рабочий стол\ThreadAsyncTask\ThreadAsyncTask\obj\Debug\net6.0\ref\ThreadAsyncTask.dll
