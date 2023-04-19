@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemIOStreamSerialize", "SystemIOStreamSerialize\SystemIOStreamSerialize.csproj", "{DFA62216-620C-43DD-BB2C-C204DA07D9A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFA62216-620C-43DD-BB2C-C204DA07D9A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFA62216-620C-43DD-BB2C-C204DA07D9A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFA62216-620C-43DD-BB2C-C204DA07D9A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFA62216-620C-43DD-BB2C-C204DA07D9A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72C339EC-9B70-49BF-A9E6-4E4C828C0ACA}
+	EndGlobalSection
+EndGlobal

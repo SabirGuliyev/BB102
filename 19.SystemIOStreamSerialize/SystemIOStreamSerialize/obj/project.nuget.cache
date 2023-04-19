@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8Z2csc2/js4tjtxbMC+Ci50kUjIe11AmfnS/Fe1gav2Lv1GyMIqMXqrI5U2vgsXMlTkZXzA0j6Ku1vsmkGi82Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\SystemIOStreamSerialize\\SystemIOStreamSerialize\\SystemIOStreamSerialize.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sabir\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

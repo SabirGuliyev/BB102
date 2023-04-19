@@ -1,0 +1,18 @@
+[
+  
+  {
+    "Id": 1,
+    "Name": "Iphone",
+    "Category": { "Name": "Phone" }
+  },
+  {
+    "Id": 2,
+    "Name": "Xiaomi",
+    "Category": { "Name": "Phone" }
+  },
+  {
+    "Id": 3,
+    "Name": "Samsung",
+    "Category": { "Name": "Phone" }
+  }
+]

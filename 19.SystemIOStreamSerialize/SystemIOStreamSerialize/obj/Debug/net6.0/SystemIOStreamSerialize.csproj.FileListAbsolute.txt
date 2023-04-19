@@ -1,0 +1,17 @@
+C:\Users\sabir\OneDrive\Рабочий стол\SystemIOStreamSerialize\SystemIOStreamSerialize\bin\Debug\net6.0\SystemIOStreamSerialize.exe
+C:\Users\sabir\OneDrive\Рабочий стол\SystemIOStreamSerialize\SystemIOStreamSerialize\bin\Debug\net6.0\SystemIOStreamSerialize.deps.json
+C:\Users\sabir\OneDrive\Рабочий стол\SystemIOStreamSerialize\SystemIOStreamSerialize\bin\Debug\net6.0\SystemIOStreamSerialize.runtimeconfig.json
+C:\Users\sabir\OneDrive\Рабочий стол\SystemIOStreamSerialize\SystemIOStreamSerialize\bin\Debug\net6.0\SystemIOStreamSerialize.dll
+C:\Users\sabir\OneDrive\Рабочий стол\SystemIOStreamSerialize\SystemIOStreamSerialize\bin\Debug\net6.0\SystemIOStreamSerialize.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\SystemIOStreamSerialize\SystemIOStreamSerialize\obj\Debug\net6.0\SystemIOStreamSerialize.csproj.AssemblyReference.cache
+C:\Users\sabir\OneDrive\Рабочий стол\SystemIOStreamSerialize\SystemIOStreamSerialize\obj\Debug\net6.0\SystemIOStreamSerialize.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sabir\OneDrive\Рабочий стол\SystemIOStreamSerialize\SystemIOStreamSerialize\obj\Debug\net6.0\SystemIOStreamSerialize.AssemblyInfoInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\SystemIOStreamSerialize\SystemIOStreamSerialize\obj\Debug\net6.0\SystemIOStreamSerialize.AssemblyInfo.cs
+C:\Users\sabir\OneDrive\Рабочий стол\SystemIOStreamSerialize\SystemIOStreamSerialize\obj\Debug\net6.0\SystemIOStreamSerialize.csproj.CoreCompileInputs.cache
+C:\Users\sabir\OneDrive\Рабочий стол\SystemIOStreamSerialize\SystemIOStreamSerialize\obj\Debug\net6.0\SystemIOStreamSerialize.dll
+C:\Users\sabir\OneDrive\Рабочий стол\SystemIOStreamSerialize\SystemIOStreamSerialize\obj\Debug\net6.0\refint\SystemIOStreamSerialize.dll
+C:\Users\sabir\OneDrive\Рабочий стол\SystemIOStreamSerialize\SystemIOStreamSerialize\obj\Debug\net6.0\SystemIOStreamSerialize.pdb
+C:\Users\sabir\OneDrive\Рабочий стол\SystemIOStreamSerialize\SystemIOStreamSerialize\obj\Debug\net6.0\SystemIOStreamSerialize.genruntimeconfig.cache
+C:\Users\sabir\OneDrive\Рабочий стол\SystemIOStreamSerialize\SystemIOStreamSerialize\obj\Debug\net6.0\ref\SystemIOStreamSerialize.dll
+C:\Users\sabir\OneDrive\Рабочий стол\SystemIOStreamSerialize\SystemIOStreamSerialize\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\sabir\OneDrive\Рабочий стол\SystemIOStreamSerialize\SystemIOStreamSerialize\obj\Debug\net6.0\SystemIOStreamSerialize.csproj.CopyComplete
