@@ -460,11 +460,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\ADO_EF\\ADO_EF\\ADO_EF.csproj",
+      "projectUniqueName": "C:\\Users\\sabir\\Desktop\\BB102 git\\20.ADO_EF\\ADO_EF\\ADO_EF.csproj",
       "projectName": "ADO_EF",
-      "projectPath": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\ADO_EF\\ADO_EF\\ADO_EF.csproj",
+      "projectPath": "C:\\Users\\sabir\\Desktop\\BB102 git\\20.ADO_EF\\ADO_EF\\ADO_EF.csproj",
       "packagesPath": "C:\\Users\\sabir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\ADO_EF\\ADO_EF\\obj\\",
+      "outputPath": "C:\\Users\\sabir\\Desktop\\BB102 git\\20.ADO_EF\\ADO_EF\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

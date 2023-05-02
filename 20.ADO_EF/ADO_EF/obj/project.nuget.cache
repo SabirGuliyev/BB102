@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uihBmHhW41QXE0v2IUuxVkZFGhPZheHEcJIZOFHb7uSDOmOT8QUl1oU+bp40GuATvS7aXlVY0Ut98Fd/cOi+sQ==",
+  "dgSpecHash": "kSEgdSWPdEpNTIud5HxB7K+jJMjD+hvuocVxSHfOVf+63bsX47I9sbH4AQzs1zJdhsOpJw4Y3bxbpnYYxqMEEg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\ADO_EF\\ADO_EF\\ADO_EF.csproj",
+  "projectFilePath": "C:\\Users\\sabir\\Desktop\\BB102 git\\20.ADO_EF\\ADO_EF\\ADO_EF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sabir\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\sabir\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
