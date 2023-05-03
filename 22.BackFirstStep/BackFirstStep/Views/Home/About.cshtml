@@ -1,0 +1,26 @@
+﻿@using BackFirstStep.Models
+@using Newtonsoft.Json
+@*@{
+    Layout = null;
+}
+
+*@
+
+@TempData["Students"] 
+
+
+
+<h3>ABOUT SEHIFESI</h3>
+
+<ul>
+      @foreach(var student in (List<Student>)TempData["Students"] )
+    {
+     <li>@student.Id  @student.Name  @student.Surname</li>
+    }
+</ul>
+
+
+
+ 
+
+

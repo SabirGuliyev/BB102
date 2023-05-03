@@ -1,0 +1,26 @@
+﻿@using BackFirstStep.Models
+
+
+
+
+<ul>
+
+    @*@foreach(Student student in ViewBag.Students)
+    {
+     <li>@student.Id  @student.Name  @student.Surname</li>
+    }*@
+
+   @* @foreach(Student student in ViewData["Students"] as List<Student>)
+    {
+     <li>@student.Id  @student.Name  @student.Surname</li>
+    }*@
+
+      @foreach(Student student in TempData["Students"] as List<Student>)
+    {
+     <li>@student.Id  @student.Name  @student.Surname</li>
+    }
+
+   
+</ul>
+
+
