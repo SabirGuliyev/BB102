@@ -57,11 +57,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\BackFirstStep\\BackFirstStep\\BackFirstStep.csproj",
+      "projectUniqueName": "C:\\Users\\sabir\\Desktop\\BB102 git\\22.BackFirstStep\\BackFirstStep\\BackFirstStep.csproj",
       "projectName": "BackFirstStep",
-      "projectPath": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\BackFirstStep\\BackFirstStep\\BackFirstStep.csproj",
+      "projectPath": "C:\\Users\\sabir\\Desktop\\BB102 git\\22.BackFirstStep\\BackFirstStep\\BackFirstStep.csproj",
       "packagesPath": "C:\\Users\\sabir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\BackFirstStep\\BackFirstStep\\obj\\",
+      "outputPath": "C:\\Users\\sabir\\Desktop\\BB102 git\\22.BackFirstStep\\BackFirstStep\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

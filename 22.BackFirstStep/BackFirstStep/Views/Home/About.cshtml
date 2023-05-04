@@ -6,18 +6,17 @@
 
 *@
 
-@TempData["Students"] 
-
-
 
 <h3>ABOUT SEHIFESI</h3>
 
-<ul>
+<p>@TempData["Students"]</p>
+<p>@ViewData["Students"]</p>
+@*<ul>
       @foreach(var student in (List<Student>)TempData["Students"] )
     {
      <li>@student.Id  @student.Name  @student.Surname</li>
     }
-</ul>
+</ul>*@
 
 
 

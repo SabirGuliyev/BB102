@@ -19,9 +19,9 @@ namespace BackFirstStep.Controllers
 
             //1.ViewBag.Students=students;
 
-            //2.ViewData["Students"]=students;
+            ViewData["Students"]="Hello";
 
-            TempData["Students"]=students;
+            TempData["Students"]="Hello Students";
 
 
             
