@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ya2Or2fTxRa0ZwlX0Jxz+gIUP5+oNF7PPW5lHEbbfHg=",
+  "Hash": "ICaSRyle1uxnz0y1AeHgkTkCXfBX1Bbf7IUxopxiRw0=",
   "Source": "MultiShop",
   "BasePath": "_content/MultiShop",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "MultiShop\\wwwroot",
       "Source": "MultiShop",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\css\\bootstrap.css",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "css/bootstrap.css",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\css\\bootstrap.min.css",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "css/bootstrap.min.css",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\css\\bootstrap-grid.css",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\css\\bootstrap-grid.min.css",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\css\\bootstrap-reboot.css",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\css\\bootstrap-reboot.min.css",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\css\\style.css",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\css\\style.css",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\css\\style.min.css",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\css\\style.min.css",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "css/style.min.css",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.min.css"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\img\\012623-GW6838-Adidas-Ozelia-Chalky-Brown-1200X1200-04-min.jpg",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\img\\012623-GW6838-Adidas-Ozelia-Chalky-Brown-1200X1200-04-min.jpg",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "img/012623-GW6838-Adidas-Ozelia-Chalky-Brown-1200X1200-04-min.jpg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\img\\012623-GW6838-Adidas-Ozelia-Chalky-Brown-1200X1200-04-min.jpg"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\img\\carousel-1.jpg",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\img\\carousel-1.jpg",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "img/carousel-1.jpg",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\img\\carousel-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\img\\carousel-2.jpg",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\img\\carousel-2.jpg",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "img/carousel-2.jpg",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\img\\carousel-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\img\\carousel-3.jpg",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\img\\carousel-3.jpg",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "img/carousel-3.jpg",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\img\\carousel-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\img\\cat-1.jpg",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\img\\cat-1.jpg",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "img/cat-1.jpg",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\img\\cat-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\img\\cat-2.jpg",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\img\\cat-2.jpg",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "img/cat-2.jpg",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\img\\cat-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\img\\cat-3.jpg",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\img\\cat-3.jpg",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "img/cat-3.jpg",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\img\\cat-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\img\\cat-4.jpg",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\img\\cat-4.jpg",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "img/cat-4.jpg",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\img\\cat-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\img\\Delphin-Sneakers.jpg",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\img\\Delphin-Sneakers.jpg",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "img/Delphin-Sneakers.jpg",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Delphin-Sneakers.jpg"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\img\\deluxe_story2.avif",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\img\\deluxe_story2.avif",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "img/deluxe_story2.avif",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\img\\deluxe_story2.avif"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\img\\hasbik.jpg",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\img\\hasbik.jpg",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "img/hasbik.jpg",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\img\\hasbik.jpg"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\img\\Nike-Swoosh-News-Gear.webp",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\img\\Nike-Swoosh-News-Gear.webp",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "img/Nike-Swoosh-News-Gear.webp",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Nike-Swoosh-News-Gear.webp"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\img\\offer-1.jpg",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\img\\offer-1.jpg",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "img/offer-1.jpg",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\img\\offer-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\img\\offer-2.jpg",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\img\\offer-2.jpg",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "img/offer-2.jpg",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\img\\offer-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\img\\payments.png",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\img\\payments.png",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "img/payments.png",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\img\\payments.png"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\img\\product-1.jpg",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\img\\product-1.jpg",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "img/product-1.jpg",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\img\\product-2.jpg",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\img\\product-2.jpg",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "img/product-2.jpg",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\img\\product-3.jpg",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\img\\product-3.jpg",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "img/product-3.jpg",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\img\\product-4.jpg",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\img\\product-4.jpg",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "img/product-4.jpg",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\img\\product-5.jpg",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\img\\product-5.jpg",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "img/product-5.jpg",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\img\\product-6.jpg",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\img\\product-6.jpg",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "img/product-6.jpg",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product-6.jpg"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\img\\product-7.jpg",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\img\\product-7.jpg",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "img/product-7.jpg",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product-7.jpg"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\img\\product-8.jpg",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\img\\product-8.jpg",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "img/product-8.jpg",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product-8.jpg"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\img\\product-9.jpg",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\img\\product-9.jpg",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "img/product-9.jpg",
       "AssetKind": "All",
@@ -561,10 +561,61 @@
       "OriginalItemSpec": "wwwroot\\img\\product-9.jpg"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\img\\user.jpg",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\img\\shirt1.webp",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
+      "BasePath": "_content/MultiShop",
+      "RelativePath": "img/shirt1.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\shirt1.webp"
+    },
+    {
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\img\\shirt2.jpg",
+      "SourceId": "MultiShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
+      "BasePath": "_content/MultiShop",
+      "RelativePath": "img/shirt2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\shirt2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\img\\shirt3.jpg",
+      "SourceId": "MultiShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
+      "BasePath": "_content/MultiShop",
+      "RelativePath": "img/shirt3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\shirt3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\img\\user.jpg",
+      "SourceId": "MultiShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "img/user.jpg",
       "AssetKind": "All",
@@ -578,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\img\\user.jpg"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\img\\vendor-1.jpg",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\img\\vendor-1.jpg",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "img/vendor-1.jpg",
       "AssetKind": "All",
@@ -595,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\img\\vendor-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\img\\vendor-2.jpg",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\img\\vendor-2.jpg",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "img/vendor-2.jpg",
       "AssetKind": "All",
@@ -612,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\img\\vendor-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\img\\vendor-3.jpg",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\img\\vendor-3.jpg",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "img/vendor-3.jpg",
       "AssetKind": "All",
@@ -629,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\img\\vendor-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\img\\vendor-4.jpg",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\img\\vendor-4.jpg",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "img/vendor-4.jpg",
       "AssetKind": "All",
@@ -646,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\img\\vendor-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\img\\vendor-5.jpg",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\img\\vendor-5.jpg",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "img/vendor-5.jpg",
       "AssetKind": "All",
@@ -663,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\img\\vendor-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\img\\vendor-6.jpg",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\img\\vendor-6.jpg",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "img/vendor-6.jpg",
       "AssetKind": "All",
@@ -680,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\img\\vendor-6.jpg"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\img\\vendor-7.jpg",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\img\\vendor-7.jpg",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "img/vendor-7.jpg",
       "AssetKind": "All",
@@ -697,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\img\\vendor-7.jpg"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\img\\vendor-8.jpg",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\img\\vendor-8.jpg",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "img/vendor-8.jpg",
       "AssetKind": "All",
@@ -714,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\img\\vendor-8.jpg"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\js\\main.js",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\js\\main.js",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "js/main.js",
       "AssetKind": "All",
@@ -731,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\js\\main.js"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\lib\\animate\\animate.min.css",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\lib\\animate\\animate.min.css",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "lib/animate/animate.min.css",
       "AssetKind": "All",
@@ -748,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\animate\\animate.min.css"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\lib\\easing\\easing.js",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\lib\\easing\\easing.js",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "lib/easing/easing.js",
       "AssetKind": "All",
@@ -765,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\easing\\easing.js"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\lib\\easing\\easing.min.js",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\lib\\easing\\easing.min.js",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "lib/easing/easing.min.js",
       "AssetKind": "All",
@@ -782,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\easing\\easing.min.js"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "lib/owlcarousel/assets/ajax-loader.gif",
       "AssetKind": "All",
@@ -799,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "lib/owlcarousel/assets/owl.carousel.css",
       "AssetKind": "All",
@@ -816,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "lib/owlcarousel/assets/owl.carousel.min.css",
       "AssetKind": "All",
@@ -833,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "lib/owlcarousel/assets/owl.theme.default.css",
       "AssetKind": "All",
@@ -850,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "lib/owlcarousel/assets/owl.theme.default.min.css",
       "AssetKind": "All",
@@ -867,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "lib/owlcarousel/assets/owl.theme.green.css",
       "AssetKind": "All",
@@ -884,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "lib/owlcarousel/assets/owl.theme.green.min.css",
       "AssetKind": "All",
@@ -901,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "lib/owlcarousel/assets/owl.video.play.png",
       "AssetKind": "All",
@@ -918,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\lib\\owlcarousel\\LICENSE",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "lib/owlcarousel/LICENSE",
       "AssetKind": "All",
@@ -935,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "lib/owlcarousel/owl.carousel.js",
       "AssetKind": "All",
@@ -952,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\owl.carousel.js"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "lib/owlcarousel/owl.carousel.min.js",
       "AssetKind": "All",
@@ -969,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\owl.carousel.min.js"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\mail\\contact.js",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\mail\\contact.js",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "mail/contact.js",
       "AssetKind": "All",
@@ -986,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\mail\\contact.js"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\mail\\contact.php",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\mail\\contact.php",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "mail/contact.php",
       "AssetKind": "All",
@@ -1003,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\mail\\contact.php"
     },
     {
-      "Identity": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\mail\\jqBootstrapValidation.min.js",
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\mail\\jqBootstrapValidation.min.js",
       "SourceId": "MultiShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\wwwroot\\",
       "BasePath": "_content/MultiShop",
       "RelativePath": "mail/jqBootstrapValidation.min.js",
       "AssetKind": "All",

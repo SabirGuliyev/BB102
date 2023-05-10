@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using MultiShop.DAL;
 using MultiShop.Models;
 using MultiShop.ViewModels;
 
@@ -6,86 +8,36 @@ namespace MultiShop.Controllers
 {
     public class HomeController:Controller
     {
+        public readonly AppDbContext _context;
+        public HomeController(AppDbContext context)
+        {
+            _context = context;
+        }
         public IActionResult Index()
         {
-            List<Slide> slides=new List<Slide>();
-            slides.Add(new Slide
-            {
-                Id = 1,
-                Title="Bashliq 1",
-                Article="Qara gunler",
-                Image= "carousel-1.jpg",
-                Order=3
-            });
-            slides.Add(new Slide
-            {
-                Id = 2,
-                Title = "Bashliq 2",
-                Article = "Qara gunler hele qabaqdadir",
-                Image = "carousel-2.jpg",
-                Order = 2
-            });
-            slides.Add(new Slide
-            {
-                Id = 3,
-                Title = "Bashliq 3",
-                Article = "Salam gencler ddsgds dsfdsfsd sdfsdf",
-                Image = "hasbik.jpg",
-                Order = 2
-            });
-            slides.Add(new Slide
-            {
-                Id = 4,
-                Title = "Bashliq 4",
-                Article = "Salam gencler ddsgds dsfdsfsd sdfsdf",
-                Image = "carousel-3.jpg",
-                Order = 4
-            });
-            slides.Add(new Slide
-            {
-                Id = 5,
-                Title = "Bashliq 5",
-                Article = "Salam gencler ddsgds dsfdsfsd sdfsdf",
-                Image = "carousel-3.jpg",
-                Order = 1
-            });
 
-
-            List<Product> products=new List<Product>();
-            products.Add(new Product
-            {
-                Id = 1,
-                Name = "Nike",
-                Price = 120.5m,
-                Image = "Nike-Swoosh-News-Gear.webp"
-
-            });
-            products.Add(new Product
-            {
-                Id = 2,
-                Name = "Puma",
-                Price = 78.5m,
-                Image = "Delphin-Sneakers.jpg"
-
-            });
-            products.Add(new Product
-            {
-                Id = 3,
-                Name = "Adidas",
-                Price = 225.00m,
-                Image = "012623-GW6838-Adidas-Ozelia-Chalky-Brown-1200X1200-04-min.jpg"
-
-            });
-
-
+            //_context.AddRange(slides);
+            //_context.SaveChanges();      
 
             HomeVM homeVM = new HomeVM
             {
-                Slides = slides.OrderBy(s => s.Order).Take(3).ToList(),
-                Products = products
+                Slides = _context.Slides.OrderBy(s => s.Order).Take(3).ToList(),
+                Products = _context.Products.Include(p=>p.Category).ToList(),
+                Categories=_context.Categories.Include(c=>c.Products).ToList()
             };
 
             return View(homeVM);
+        }
+
+        public IActionResult Details(int? id)
+        {
+            if (id == null) return BadRequest();
+
+            Product product = _context.Products.FirstOrDefault(p => p.Id == id);
+
+            if (product is null) return NotFound();
+         
+            return View(product);
         }
         public IActionResult Contact()
         {

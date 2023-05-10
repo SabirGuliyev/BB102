@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\MultiShop.csproj": {}
+    "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\MultiShop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\MultiShop.csproj": {
+    "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\MultiShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\MultiShop.csproj",
+        "projectUniqueName": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\MultiShop.csproj",
         "projectName": "MultiShop",
-        "projectPath": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\MultiShop.csproj",
+        "projectPath": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\MultiShop.csproj",
         "packagesPath": "C:\\Users\\sabir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\MultiShop\\MultiShop\\obj\\",
+        "outputPath": "C:\\Users\\sabir\\Desktop\\BB102 git\\23.MultiShop\\MultiShop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,22 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

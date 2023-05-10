@@ -1,0 +1,63 @@
+﻿@model List<Category>
+@{
+    int count = 0;
+}
+<div class="col-lg-12 grid-margin stretch-card">
+    
+    <div class="card">
+        
+        <div class="card-body">
+            
+            <h4 class="card-title">Categories</h4>
+           <div class=" "><a asp-controller="category" asp-action="create" class="btn btn-success">Create Category</a></div>
+            <div class="table-responsive">
+                
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>
+                                No
+                            </th>
+                            <th>
+                                Name
+                            </th>
+                            <th>
+                                Product Count
+                            </th>
+                            <th>
+                                Settings
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (Category item in Model)
+                        {
+                            count++;
+                            <tr>
+
+                                <td>
+                                   @count
+                                </td>
+
+                                <td>
+                                   @item.Name
+                                </td>
+                                <td>
+                                    @item.Products.Count
+                                </td>
+                                  
+                                <td>
+                                    <a asp-action="update" asp-controller="category" asp-route-id="@item.Id" class="btn btn-warning "><i class="mdi mdi-pencil-box"></i></a>
+
+                                    <a asp-action="delete" asp-controller="category" asp-route-id="@item.Id" class="btn btn-danger "><i class="mdi mdi-delete"></i></a>
+
+                                    <a class="btn btn-primary "><i class="mdi mdi-open-in-new"></i></a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
