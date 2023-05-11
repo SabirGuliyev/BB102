@@ -8,61 +8,69 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProniaBB102Web
 build_property.RootNamespace = ProniaBB102Web
-build_property.ProjectDir = C:\Users\sabir\OneDrive\Рабочий стол\ProniaBB102Web\ProniaBB102Web\
+build_property.ProjectDir = C:\Users\sabir\Desktop\BB102 git\24.ProniaBB102Web\ProniaBB102Web\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\sabir\OneDrive\Рабочий стол\ProniaBB102Web\ProniaBB102Web
+build_property.MSBuildProjectDirectory = C:\Users\sabir\Desktop\BB102 git\24.ProniaBB102Web\ProniaBB102Web
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/sabir/OneDrive/Рабочий стол/ProniaBB102Web/ProniaBB102Web/Areas/ProniaAdmin/Views/Category/Create.cshtml]
+[C:/Users/sabir/Desktop/BB102 git/24.ProniaBB102Web/ProniaBB102Web/Areas/ProniaAdmin/Views/Category/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvbmlhQWRtaW5cVmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sabir/OneDrive/Рабочий стол/ProniaBB102Web/ProniaBB102Web/Areas/ProniaAdmin/Views/Category/Index.cshtml]
+[C:/Users/sabir/Desktop/BB102 git/24.ProniaBB102Web/ProniaBB102Web/Areas/ProniaAdmin/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvbmlhQWRtaW5cVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sabir/OneDrive/Рабочий стол/ProniaBB102Web/ProniaBB102Web/Areas/ProniaAdmin/Views/Category/Update.cshtml]
+[C:/Users/sabir/Desktop/BB102 git/24.ProniaBB102Web/ProniaBB102Web/Areas/ProniaAdmin/Views/Category/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvbmlhQWRtaW5cVmlld3NcQ2F0ZWdvcnlcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sabir/OneDrive/Рабочий стол/ProniaBB102Web/ProniaBB102Web/Areas/ProniaAdmin/Views/Home/Index.cshtml]
+[C:/Users/sabir/Desktop/BB102 git/24.ProniaBB102Web/ProniaBB102Web/Areas/ProniaAdmin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvbmlhQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sabir/OneDrive/Рабочий стол/ProniaBB102Web/ProniaBB102Web/Areas/ProniaAdmin/Views/Shared/_AdminLayout.cshtml]
+[C:/Users/sabir/Desktop/BB102 git/24.ProniaBB102Web/ProniaBB102Web/Areas/ProniaAdmin/Views/Shared/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvbmlhQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sabir/OneDrive/Рабочий стол/ProniaBB102Web/ProniaBB102Web/Areas/ProniaAdmin/Views/_ViewImports.cshtml]
+[C:/Users/sabir/Desktop/BB102 git/24.ProniaBB102Web/ProniaBB102Web/Areas/ProniaAdmin/Views/Slide/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvbmlhQWRtaW5cVmlld3NcU2xpZGVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sabir/Desktop/BB102 git/24.ProniaBB102Web/ProniaBB102Web/Areas/ProniaAdmin/Views/Slide/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvbmlhQWRtaW5cVmlld3NcU2xpZGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sabir/Desktop/BB102 git/24.ProniaBB102Web/ProniaBB102Web/Areas/ProniaAdmin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvbmlhQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sabir/OneDrive/Рабочий стол/ProniaBB102Web/ProniaBB102Web/Areas/ProniaAdmin/Views/_ViewStart.cshtml]
+[C:/Users/sabir/Desktop/BB102 git/24.ProniaBB102Web/ProniaBB102Web/Areas/ProniaAdmin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvbmlhQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sabir/OneDrive/Рабочий стол/ProniaBB102Web/ProniaBB102Web/Views/Home/Index.cshtml]
+[C:/Users/sabir/Desktop/BB102 git/24.ProniaBB102Web/ProniaBB102Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sabir/OneDrive/Рабочий стол/ProniaBB102Web/ProniaBB102Web/Views/Shared/_Layout.cshtml]
+[C:/Users/sabir/Desktop/BB102 git/24.ProniaBB102Web/ProniaBB102Web/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sabir/OneDrive/Рабочий стол/ProniaBB102Web/ProniaBB102Web/Views/Shop/Details.cshtml]
+[C:/Users/sabir/Desktop/BB102 git/24.ProniaBB102Web/ProniaBB102Web/Views/Shop/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sabir/OneDrive/Рабочий стол/ProniaBB102Web/ProniaBB102Web/Views/Shop/Index.cshtml]
+[C:/Users/sabir/Desktop/BB102 git/24.ProniaBB102Web/ProniaBB102Web/Views/Shop/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sabir/OneDrive/Рабочий стол/ProniaBB102Web/ProniaBB102Web/Views/_ViewImports.cshtml]
+[C:/Users/sabir/Desktop/BB102 git/24.ProniaBB102Web/ProniaBB102Web/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sabir/OneDrive/Рабочий стол/ProniaBB102Web/ProniaBB102Web/Views/_ViewStart.cshtml]
+[C:/Users/sabir/Desktop/BB102 git/24.ProniaBB102Web/ProniaBB102Web/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

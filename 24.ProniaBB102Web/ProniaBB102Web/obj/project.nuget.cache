@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GeU1MpKWmInQRBWrMaSZiBZtPTAhZ5sqa5VSVRe4PJmVYQH9uQO6PEfpH+8DcOaCU9rEbS/IRvZcKn7Zsh/7eQ==",
+  "dgSpecHash": "UUhbdwYk25sVB4AuU9nbyGwZRNq1R3Y+Tq5/Wt085cLW2qAhbDVIQ3+XSrGD4e5K7Cj3Kpm8XO3EJdY2tS4g+A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sabir\\OneDrive\\Рабочий стол\\ProniaBB102Web\\ProniaBB102Web\\ProniaBB102Web.csproj",
+  "projectFilePath": "C:\\Users\\sabir\\Desktop\\BB102 git\\24.ProniaBB102Web\\ProniaBB102Web\\ProniaBB102Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sabir\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\sabir\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
