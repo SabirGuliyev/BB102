@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZfkeXdPA61NOOepX9sMU1N9tCgGQameDagRMNCqJyZQ=",
+  "Hash": "iB1rlX0I3qlBQL04w/0vTeMtlF4mYLxQikAFLjmQJ/s=",
   "Source": "ProniaBB102Web",
   "BasePath": "_content/ProniaBB102Web",
   "Mode": "Default",
@@ -4182,6 +4182,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\3.png"
     },
     {
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\24.ProniaBB102Web\\ProniaBB102Web\\wwwroot\\assets\\images\\website-images\\8cd735ef-7201-4381-89b2-e03096961629Dagdagul.jpg",
+      "SourceId": "ProniaBB102Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\24.ProniaBB102Web\\ProniaBB102Web\\wwwroot\\",
+      "BasePath": "_content/ProniaBB102Web",
+      "RelativePath": "assets/images/website-images/8cd735ef-7201-4381-89b2-e03096961629Dagdagul.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\8cd735ef-7201-4381-89b2-e03096961629Dagdagul.jpg"
+    },
+    {
       "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\24.ProniaBB102Web\\ProniaBB102Web\\wwwroot\\assets\\images\\website-images\\car.png",
       "SourceId": "ProniaBB102Web",
       "SourceType": "Discovered",
@@ -4265,6 +4282,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\gul2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\24.ProniaBB102Web\\ProniaBB102Web\\wwwroot\\assets\\images\\website-images\\MyPlant.jpg",
+      "SourceId": "ProniaBB102Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\24.ProniaBB102Web\\ProniaBB102Web\\wwwroot\\",
+      "BasePath": "_content/ProniaBB102Web",
+      "RelativePath": "assets/images/website-images/MyPlant.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\MyPlant.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\24.ProniaBB102Web\\ProniaBB102Web\\wwwroot\\assets\\images\\website-images\\Plant.jpg",
+      "SourceId": "ProniaBB102Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sabir\\Desktop\\BB102 git\\24.ProniaBB102Web\\ProniaBB102Web\\wwwroot\\",
+      "BasePath": "_content/ProniaBB102Web",
+      "RelativePath": "assets/images/website-images/Plant.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\Plant.jpg"
     },
     {
       "Identity": "C:\\Users\\sabir\\Desktop\\BB102 git\\24.ProniaBB102Web\\ProniaBB102Web\\wwwroot\\assets\\images\\website-images\\quotation.png",

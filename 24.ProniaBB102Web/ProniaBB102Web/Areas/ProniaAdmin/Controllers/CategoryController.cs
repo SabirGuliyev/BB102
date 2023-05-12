@@ -6,6 +6,7 @@ using ProniaBB102Web.Models;
 namespace ProniaBB102Web.Areas.ProniaAdmin.Controllers
 {
     [Area("ProniaAdmin")]
+    [AutoValidateAntiforgeryToken]
     public class CategoryController : Controller
     {
         private readonly AppDbContext _context;
