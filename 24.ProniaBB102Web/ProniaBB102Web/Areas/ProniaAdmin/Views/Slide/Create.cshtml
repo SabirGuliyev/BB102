@@ -1,4 +1,5 @@
-﻿@model Slide 
+﻿
+@model CreateSlideVM
 
 <div class="container-fluid page-body-wrapper">
 
@@ -17,7 +18,7 @@
                       <span class="text-danger" asp-validation-for="Title"></span>
                     </div>
                      <div class="form-group">
-                      <label  asp-for="SubTitle">Name</label>
+                      <label  asp-for="SubTitle">Subtitle</label>
                       <input  asp-for="SubTitle" class="form-control" placeholder="SubTitle">
                       <span class="text-danger" asp-validation-for="SubTitle"></span>
                     </div>

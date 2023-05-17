@@ -19,5 +19,9 @@ namespace ProniaBB102Web.DAL
         public DbSet<ProductImage> ProductImages { get; set; }
         public DbSet<ProductTag> ProductTags { get; set; }
 
+        public DbSet<Employee> Employees { get;  set; }
+        public DbSet<Position> Positions { get; set; }
+        public DbSet<Setting> Settings { get; set; }
+
     }
 }
