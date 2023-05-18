@@ -20,6 +20,17 @@ namespace ProniaBB102Web.Controllers
         }
         public async Task<IActionResult> Details(int id)
         {
+            //string result = Request.Cookies["Name"];
+
+            //if (string.IsNullOrEmpty(result)) return NotFound();
+
+            Response.Cookies.Append("Name", "Yusif", new CookieOptions
+            {
+                MaxAge = TimeSpan.FromSeconds(50)
+            });
+
+
+            HttpContext.Session.SetString("Name", "Azade");
 
 
             Product product = await _context.Products

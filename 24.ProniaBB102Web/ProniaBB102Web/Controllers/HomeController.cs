@@ -15,7 +15,17 @@ namespace ProniaBB102Web.Controllers
         }
         public async Task<IActionResult> Index()
         {
+           
+           
+                //return Content(HttpContext.Session.GetString("Name")+"  " + Request.Cookies["Name"]);
+            
+            //Response.Cookies.Append("Name", "Yusif",new CookieOptions
+            //{
+            //    MaxAge=TimeSpan.FromSeconds(50)
+            //});
 
+
+            //HttpContext.Session.SetString("Name", "Azade");
             HomeVM homeVM = new HomeVM
             {
                 Products=await _context.Products.Include(p=>p.ProductImages).ToListAsync(),

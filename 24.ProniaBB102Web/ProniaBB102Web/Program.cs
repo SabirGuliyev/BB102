@@ -3,6 +3,10 @@ using ProniaBB102Web.DAL;
 using ProniaBB102Web.Services;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromSeconds(50);
+});
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<AppDbContext>(opt =>
 {
@@ -11,7 +15,7 @@ builder.Services.AddDbContext<AppDbContext>(opt =>
 builder.Services.AddScoped<LayoutService>();
 
 var app = builder.Build();
-
+app.UseSession();
 app.UseStaticFiles();
 
 app.MapControllerRoute(
