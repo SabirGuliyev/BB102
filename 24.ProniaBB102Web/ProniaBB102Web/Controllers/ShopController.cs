@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 using ProniaBB102Web.DAL;
 using ProniaBB102Web.Models;
 using ProniaBB102Web.ViewModels;
@@ -24,13 +25,13 @@ namespace ProniaBB102Web.Controllers
 
             //if (string.IsNullOrEmpty(result)) return NotFound();
 
-            Response.Cookies.Append("Name", "Yusif", new CookieOptions
-            {
-                MaxAge = TimeSpan.FromSeconds(50)
-            });
+            //Response.Cookies.Append("Name", "Yusif", new CookieOptions
+            //{
+            //    MaxAge = TimeSpan.FromSeconds(50)
+            //});
 
 
-            HttpContext.Session.SetString("Name", "Azade");
+            //HttpContext.Session.SetString("Name", "Azade");
 
 
             Product product = await _context.Products
@@ -50,6 +51,61 @@ namespace ProniaBB102Web.Controllers
                 Products = products
             };
             return View(detailVM);
+        }
+
+        public async Task<IActionResult> AddBasket(int? id)
+        {
+            if (id == null || id < 1) return BadRequest();
+
+            Product product=await _context.Products.FirstOrDefaultAsync(p => p.Id == id);
+
+            if (product == null) return NotFound();
+
+            List<BasketCookiesItemVM> basket;
+
+            if (Request.Cookies["Basket"]==null)
+            {
+                 basket = new List<BasketCookiesItemVM>();
+
+                basket.Add(new BasketCookiesItemVM
+                {
+                    Id = product.Id,
+                    Count = 1
+                });
+            }
+            else
+            {
+                basket = JsonConvert.DeserializeObject<List<BasketCookiesItemVM>>(Request.Cookies["Basket"]);
+
+               BasketCookiesItemVM existed=basket.FirstOrDefault(b => b.Id == id);
+
+                if (existed!=null)
+                {
+                    existed.Count++;
+                }
+                else
+                {
+                    basket.Add(new BasketCookiesItemVM
+                    {
+                        Id = product.Id,
+                        Count = 1
+                    });
+                }
+            }
+
+            string json=JsonConvert.SerializeObject(basket);
+            Response.Cookies.Append("Basket", json);
+
+            return RedirectToAction(nameof(Index), "Home");
+        }
+
+
+
+        public async Task<IActionResult> GetBasket()
+        {
+           var basket= JsonConvert.DeserializeObject<List<BasketCookiesItemVM>>(Request.Cookies["Basket"]);
+
+            return Json(basket);
         }
     }
 }

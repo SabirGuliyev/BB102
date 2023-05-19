@@ -17,7 +17,7 @@ namespace ProniaBB102Web.Controllers
         {
            
            
-                //return Content(HttpContext.Session.GetString("Name")+"  " + Request.Cookies["Name"]);
+            //return Content(HttpContext.Session.GetString("Name")+"  " + Request.Cookies["Name"]);
             
             //Response.Cookies.Append("Name", "Yusif",new CookieOptions
             //{

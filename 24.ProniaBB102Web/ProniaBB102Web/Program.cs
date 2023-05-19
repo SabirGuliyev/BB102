@@ -7,6 +7,7 @@ builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromSeconds(50);
 });
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<AppDbContext>(opt =>
 {
