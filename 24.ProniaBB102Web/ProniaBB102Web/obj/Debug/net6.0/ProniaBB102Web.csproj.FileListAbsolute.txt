@@ -562,3 +562,8 @@ C:\Users\sabir\Desktop\BB102 git\24.ProniaBB102Web\ProniaBB102Web\obj\Debug\net6
 C:\Users\sabir\Desktop\BB102 git\24.ProniaBB102Web\ProniaBB102Web\obj\Debug\net6.0\ProniaBB102Web.csproj.CopyComplete
 C:\Users\sabir\Desktop\BB102 git\24.ProniaBB102Web\ProniaBB102Web\obj\Debug\net6.0\ProniaBB102Web.genruntimeconfig.cache
 C:\Users\sabir\Desktop\BB102 git\24.ProniaBB102Web\ProniaBB102Web\obj\Debug\net6.0\ref\ProniaBB102Web.dll
+C:\Users\sabir\Desktop\BB102 git\24.ProniaBB102Web\ProniaBB102Web\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\sabir\Desktop\BB102 git\24.ProniaBB102Web\ProniaBB102Web\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\sabir\Desktop\BB102 git\24.ProniaBB102Web\ProniaBB102Web\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\sabir\Desktop\BB102 git\24.ProniaBB102Web\ProniaBB102Web\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\sabir\Desktop\BB102 git\24.ProniaBB102Web\ProniaBB102Web\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
