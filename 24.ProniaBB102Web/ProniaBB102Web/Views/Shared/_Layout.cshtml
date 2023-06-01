@@ -174,7 +174,7 @@
                               else{
                                    <a class="dropdown-item" asp-action="register" asp-controller="account"
                               > Register</a>
-                               <a class="dropdown-item" asp-action="login" asp-controller="account"
+                               <a class="dropdown-item" asp-action="login" asp-controller="account" asp-route-ReturnUrl="@Context.Request.Path.Value"
                               > Login</a>
                               }
                             

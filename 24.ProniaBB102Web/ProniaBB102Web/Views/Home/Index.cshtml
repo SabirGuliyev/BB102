@@ -237,12 +237,12 @@
                           <a asp-controller="shop" asp-action="details" asp-route-id="@product.Id" >
                             <img
                               class="primary-img"
-                              src="~/assets/images/website-images/@(product.ProductImages.FirstOrDefault(p=>p.IsPrimary==true).ImageUrl)"
+                              src="~/assets/images/website-images/@(product.ProductImages.FirstOrDefault(p=>p.IsPrimary==true)?.ImageUrl)"
                               alt="Product Images"
                             />
                             <img
                               class="secondary-img"
-                              src="~/assets/images/website-images/@(product.ProductImages.FirstOrDefault(p=>p.IsPrimary==false).ImageUrl)"
+                              src="~/assets/images/website-images/@(product.ProductImages.FirstOrDefault(p=>p.IsPrimary==false)?.ImageUrl)"
                               alt="Product Images"
                             />
                           </a>
