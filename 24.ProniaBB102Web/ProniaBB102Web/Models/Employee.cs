@@ -2,9 +2,9 @@
 
 namespace ProniaBB102Web.Models
 {
-    public class Employee
+    public class Employee:BaseEntity
     {
-        public int Id { get; set; }
+
         [Required(ErrorMessage ="Ad bosh olmamalidir")]
         public string Name { get; set; }
         public string Surname { get; set; }

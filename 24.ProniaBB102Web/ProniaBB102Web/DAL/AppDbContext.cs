@@ -23,6 +23,8 @@ namespace ProniaBB102Web.DAL
         public DbSet<Employee> Employees { get;  set; }
         public DbSet<Position> Positions { get; set; }
         public DbSet<Setting> Settings { get; set; }
+        public DbSet<BasketItem> BasketItems { get; set; }
+        public DbSet<Order> Orders { get; set; }
 
     }
 }

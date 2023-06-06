@@ -184,7 +184,6 @@ namespace ProniaBB102Web.Migrations
                         .HasColumnType("datetimeoffset");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("NormalizedEmail")
@@ -208,7 +207,6 @@ namespace ProniaBB102Web.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Surname")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("TwoFactorEnabled")
@@ -229,6 +227,40 @@ namespace ProniaBB102Web.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers", (string)null);
+                });
+
+            modelBuilder.Entity("ProniaBB102Web.Models.BasketItem", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("AppUserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("Count")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("OrderId")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId");
+
+                    b.HasIndex("OrderId");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("BasketItems");
                 });
 
             modelBuilder.Entity("ProniaBB102Web.Models.Category", b =>
@@ -265,7 +297,6 @@ namespace ProniaBB102Web.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Surname")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
@@ -273,6 +304,33 @@ namespace ProniaBB102Web.Migrations
                     b.HasIndex("PositionId");
 
                     b.ToTable("Employees");
+                });
+
+            modelBuilder.Entity("ProniaBB102Web.Models.Order", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("AppUserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("PurchaseAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool?>("Status")
+                        .HasColumnType("bit");
+
+                    b.Property<decimal>("TotalPrice")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId");
+
+                    b.ToTable("Orders");
                 });
 
             modelBuilder.Entity("ProniaBB102Web.Models.Position", b =>
@@ -284,7 +342,6 @@ namespace ProniaBB102Web.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
@@ -304,18 +361,15 @@ namespace ProniaBB102Web.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Description")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("SKU")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
@@ -334,7 +388,6 @@ namespace ProniaBB102Web.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("ImageUrl")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool?>("IsPrimary")
@@ -382,11 +435,9 @@ namespace ProniaBB102Web.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Key")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Value")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
@@ -403,7 +454,6 @@ namespace ProniaBB102Web.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Description")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Image")
@@ -414,7 +464,6 @@ namespace ProniaBB102Web.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("SubTitle")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Title")
@@ -435,7 +484,6 @@ namespace ProniaBB102Web.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
@@ -494,6 +542,29 @@ namespace ProniaBB102Web.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("ProniaBB102Web.Models.BasketItem", b =>
+                {
+                    b.HasOne("ProniaBB102Web.Models.AppUser", "AppUser")
+                        .WithMany("BasketItems")
+                        .HasForeignKey("AppUserId");
+
+                    b.HasOne("ProniaBB102Web.Models.Order", "Order")
+                        .WithMany("BasketItems")
+                        .HasForeignKey("OrderId");
+
+                    b.HasOne("ProniaBB102Web.Models.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
+
+                    b.Navigation("Order");
+
+                    b.Navigation("Product");
+                });
+
             modelBuilder.Entity("ProniaBB102Web.Models.Employee", b =>
                 {
                     b.HasOne("ProniaBB102Web.Models.Position", "Position")
@@ -503,6 +574,15 @@ namespace ProniaBB102Web.Migrations
                         .IsRequired();
 
                     b.Navigation("Position");
+                });
+
+            modelBuilder.Entity("ProniaBB102Web.Models.Order", b =>
+                {
+                    b.HasOne("ProniaBB102Web.Models.AppUser", "AppUser")
+                        .WithMany("Orders")
+                        .HasForeignKey("AppUserId");
+
+                    b.Navigation("AppUser");
                 });
 
             modelBuilder.Entity("ProniaBB102Web.Models.Product", b =>
@@ -546,9 +626,21 @@ namespace ProniaBB102Web.Migrations
                     b.Navigation("Tag");
                 });
 
+            modelBuilder.Entity("ProniaBB102Web.Models.AppUser", b =>
+                {
+                    b.Navigation("BasketItems");
+
+                    b.Navigation("Orders");
+                });
+
             modelBuilder.Entity("ProniaBB102Web.Models.Category", b =>
                 {
                     b.Navigation("Products");
+                });
+
+            modelBuilder.Entity("ProniaBB102Web.Models.Order", b =>
+                {
+                    b.Navigation("BasketItems");
                 });
 
             modelBuilder.Entity("ProniaBB102Web.Models.Position", b =>

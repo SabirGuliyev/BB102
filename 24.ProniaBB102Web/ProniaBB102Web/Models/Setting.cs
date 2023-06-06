@@ -1,8 +1,8 @@
 ﻿namespace ProniaBB102Web.Models
 {
-    public class Setting
+    public class Setting : BaseEntity
     {
-        public int Id { get; set; }
+        
         public string Key { get; set; } 
         public string Value { get; set; } 
     }

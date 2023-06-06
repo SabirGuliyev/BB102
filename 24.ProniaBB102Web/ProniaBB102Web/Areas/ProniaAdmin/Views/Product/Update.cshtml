@@ -1,0 +1,105 @@
+﻿@model UpdateProductVM
+
+<div class="container-fluid page-body-wrapper">
+
+    <div class="main-panel">
+        <div class="content-wrapper">
+            <div class="row">
+
+                <div class="col-12 grid-margin stretch-card">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Update Product</h4>
+                            <form class="forms-sample" method="post" enctype="multipart/form-data">
+                                <div class="form-group">
+                                    <img src="~/assets/images/website-images/@Model.ProductImageVMs.FirstOrDefault(p=>p.IsPrimary==true)?.ImageUrl" />
+                                    <label asp-for="MainPhoto">Main Photo</label>
+                                    <input asp-for="MainPhoto" class="form-control">
+                                    <span class="text-danger" asp-validation-for="MainPhoto"></span>
+                                </div>
+                                <div class="form-group">
+                                    <img src="~/assets/images/website-images/@Model.ProductImageVMs.FirstOrDefault(p=>p.IsPrimary==false)?.ImageUrl" />
+                                    <label asp-for="HoverPhoto">Hover Photo</label>
+                                    <input asp-for="HoverPhoto" class="form-control">
+                                    <span class="text-danger" asp-validation-for="HoverPhoto"></span>
+                                </div>
+                                <div class="form-group">
+                                    <div class="row">
+                                        @foreach (ProductImageVM imageVM in Model.ProductImageVMs.Where(p => p.IsPrimary == null).ToList())
+                                        {
+
+                                            <div class="col-3 position-relative">
+                                                <img style="width:100%;height:150px;" src="~/assets/images/website-images/@imageVM.ImageUrl" />
+                                                <input type="hidden" name="ImagesIds" value="@imageVM.Id" class="form-control">
+                                                <button type="button" style="right:8px;" class="btn btn-danger position-absolute custom-delete">X</button>
+                                            </div>
+                                        }
+                                    </div>
+                                    <label asp-for="Photos">Additional Photos</label>
+                                    <input asp-for="Photos" class="form-control">
+                                    <span class="text-danger" asp-validation-for="Photos"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="Name">Name</label>
+                                    <input asp-for="Name" class="form-control" placeholder="Name">
+                                    <span class="text-danger" asp-validation-for="Name"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="Price">Price</label>
+                                    <input asp-for="Price" class="form-control" placeholder="Price">
+                                    <span class="text-danger" asp-validation-for="Price"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="Description">Description</label>
+                                    <input asp-for="Description" class="form-control" placeholder="Description">
+                                    <span class="text-danger" asp-validation-for="Description"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="SKU">SKU</label>
+                                    <input asp-for="SKU" class="form-control" placeholder="SKU">
+                                    <span class="text-danger" asp-validation-for="SKU"></span>
+                                </div>
+
+                                <div class="form-group">
+                                    <label asp-for="CategoryId">Category</label>
+                                    <select asp-for="CategoryId" class="form-control" asp-items="new SelectList(ViewBag.Categories,nameof(Category.Id),nameof(Category.Name))">
+                                        <option disabled selected>Select Position please</option>
+                                    </select>
+                                    <span class="text-danger" asp-validation-for="CategoryId"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="TagIds">Tags</label>
+                                    <select asp-for="TagIds" class="form-control" asp-items="new SelectList(ViewBag.Tags,nameof(Tag.Id),nameof(Tag.Name))">
+                                    </select>
+                                    <span class="text-danger" asp-validation-for="TagIds"></span>
+                                </div>
+                                <button type="submit" class="btn btn-primary me-2">Update</button>
+                                <a asp-action="index" asp-controller="product" class="btn btn-light">Cancel</a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- content-wrapper ends -->
+        <!-- partial:../../partials/_footer.html -->
+        <!-- partial -->
+    </div>
+    <!-- main-panel ends -->
+</div>
+
+
+
+
+@section DeletePhotos{
+    <script>
+
+        let btns = document.querySelectorAll(".custom-delete")
+        btns.forEach(b => {
+            b.addEventListener("click", function() {
+                b.parentElement.remove()
+            })
+        })
+    </script>
+}

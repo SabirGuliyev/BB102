@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using ProniaBB102Web.DAL;
@@ -10,57 +11,82 @@ namespace ProniaBB102Web.Controllers
     public class CartController : Controller
     {
         private readonly AppDbContext _context;
+        private readonly UserManager<AppUser> _userManager;
 
-        public CartController(AppDbContext context)
+        public CartController(AppDbContext context,UserManager<AppUser> userManager)
         {
            _context = context;
+            _userManager = userManager;
         }
         public async Task<IActionResult> Index()
         {
-            List<BasketCookiesItemVM> basket;
-
-            string json = Request.Cookies["Basket"];
-
-            if (!String.IsNullOrEmpty(json))
-            {
-                basket = JsonConvert.DeserializeObject<List<BasketCookiesItemVM>>(json);
-            }
-            else
-            {
-                basket = new List<BasketCookiesItemVM>();
-            }
 
             List<BasketItemVM> basketItems = new List<BasketItemVM>();
 
-            foreach (var cookie in basket)
+            if (User.Identity.IsAuthenticated)
             {
-                Product product = await _context.Products.Include(p => p.ProductImages.Where(pi => pi.IsPrimary == true)).FirstOrDefaultAsync(p =>p.Id== cookie.Id);
+                AppUser user = await _userManager.FindByNameAsync(User.Identity.Name);
+                if (user is null) return NotFound();
 
-                if (product==null)
+                List<BasketItem> userItems = await _context.BasketItems
+                    .Where(b => b.AppUserId == user.Id)
+                    .Include(b => b.Product)
+                    .ThenInclude(p => p.ProductImages.Where(pi => pi.IsPrimary == true))
+                    .ToListAsync();
+                foreach (BasketItem item in userItems)
                 {
-                    basket.Remove(cookie);
-                    continue;
+                    basketItems.Add(new BasketItemVM
+                    {
+                        Id = item.ProductId,
+                        Count = item.Count,
+                        Price = item.Price,
+                        Image = item.Product.ProductImages[0].ImageUrl
+
+                    });
                 }
-               
-                BasketItemVM itemVM = new BasketItemVM
+            }
+            else
+            {
+                List<BasketCookiesItemVM> basket;
+
+
+                string json = Request.Cookies["Basket"];
+
+                if (!String.IsNullOrEmpty(json))
                 {
-                    Id=product.Id,
-                    Name=product.Name,
-                    Price=product.Price,
-                    Image = product.ProductImages.FirstOrDefault().ImageUrl,
-                    Count=cookie.Count
-                };
+                    basket = JsonConvert.DeserializeObject<List<BasketCookiesItemVM>>(json);
+                }
+                else
+                {
+                    basket = new List<BasketCookiesItemVM>();
+                }
 
-                basketItems.Add(itemVM);
 
+
+                foreach (var cookie in basket)
+                {
+                    Product product = await _context.Products.Include(p => p.ProductImages.Where(pi => pi.IsPrimary == true)).FirstOrDefaultAsync(p => p.Id == cookie.Id);
+
+                    if (product == null)
+                    {
+                        basket.Remove(cookie);
+                        continue;
+                    }
+
+                    BasketItemVM itemVM = new BasketItemVM
+                    {
+                        Id = product.Id,
+                        Name = product.Name,
+                        Price = product.Price,
+                        Image = product.ProductImages.FirstOrDefault().ImageUrl,
+                        Count = cookie.Count
+                    };
+
+                    basketItems.Add(itemVM);
+
+                }
             }
 
-
-
-
-
-
-           
 
             return View(basketItems);
         }

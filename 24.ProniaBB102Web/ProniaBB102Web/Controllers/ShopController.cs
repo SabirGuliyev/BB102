@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using ProniaBB102Web.DAL;
@@ -10,10 +11,12 @@ namespace ProniaBB102Web.Controllers
     public class ShopController : Controller
     {
         private readonly AppDbContext _context;
+        private readonly UserManager<AppUser> _userManager;
 
-        public ShopController(AppDbContext context)
+        public ShopController(AppDbContext context,UserManager<AppUser> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
         public IActionResult Index()
         {
@@ -57,44 +60,78 @@ namespace ProniaBB102Web.Controllers
         {
             if (id == null || id < 1) return BadRequest();
 
-            Product product=await _context.Products.FirstOrDefaultAsync(p => p.Id == id);
+            Product product = await _context.Products.FirstOrDefaultAsync(p => p.Id == id);
 
             if (product == null) return NotFound();
 
-            List<BasketCookiesItemVM> basket;
 
-            if (Request.Cookies["Basket"]==null)
+            if (User.Identity.IsAuthenticated)
             {
-                 basket = new List<BasketCookiesItemVM>();
+                AppUser user = await _userManager.FindByNameAsync(User.Identity.Name);
+                if (user is null) return NotFound();
 
-                basket.Add(new BasketCookiesItemVM
+                BasketItem existedItem = await _context.BasketItems
+                    .FirstOrDefaultAsync(b=>b.AppUserId==user.Id&&b.ProductId==product.Id);
+                if (existedItem is null)
                 {
-                    Id = product.Id,
-                    Count = 1
-                });
-            }
-            else
-            {
-                basket = JsonConvert.DeserializeObject<List<BasketCookiesItemVM>>(Request.Cookies["Basket"]);
+                    existedItem = new BasketItem
+                    {
+                        AppUserId = user.Id,
+                        ProductId = product.Id,
+                        Price = product.Price,
+                        Count = 1,
 
-               BasketCookiesItemVM existed=basket.FirstOrDefault(b => b.Id == id);
-
-                if (existed!=null)
-                {
-                    existed.Count++;
+                    };
+                    await _context.BasketItems.AddAsync(existedItem);
                 }
                 else
                 {
+                    existedItem.Count++;
+                }
+                await _context.SaveChangesAsync();
+
+               
+            }
+            else
+            {
+                List<BasketCookiesItemVM> basket;
+
+                if (Request.Cookies["Basket"] == null)
+                {
+                    basket = new List<BasketCookiesItemVM>();
+
                     basket.Add(new BasketCookiesItemVM
                     {
                         Id = product.Id,
                         Count = 1
                     });
                 }
-            }
+                else
+                {
+                    basket = JsonConvert.DeserializeObject<List<BasketCookiesItemVM>>(Request.Cookies["Basket"]);
 
-            string json=JsonConvert.SerializeObject(basket);
-            Response.Cookies.Append("Basket", json);
+                    BasketCookiesItemVM existed = basket.FirstOrDefault(b => b.Id == id);
+
+                    if (existed != null)
+                    {
+                        existed.Count++;
+                    }
+                    else
+                    {
+                        basket.Add(new BasketCookiesItemVM
+                        {
+                            Id = product.Id,
+                            Count = 1
+                        });
+                    }
+                }
+
+                string json = JsonConvert.SerializeObject(basket);
+                Response.Cookies.Append("Basket", json);
+            }
+           
+
+           
 
             return RedirectToAction(nameof(Index), "Home");
         }
