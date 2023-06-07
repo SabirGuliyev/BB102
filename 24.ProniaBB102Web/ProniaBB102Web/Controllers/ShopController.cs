@@ -71,7 +71,7 @@ namespace ProniaBB102Web.Controllers
                 if (user is null) return NotFound();
 
                 BasketItem existedItem = await _context.BasketItems
-                    .FirstOrDefaultAsync(b=>b.AppUserId==user.Id&&b.ProductId==product.Id);
+                    .FirstOrDefaultAsync(b=>b.AppUserId==user.Id&&b.ProductId==product.Id&&b.OrderId==null);
                 if (existedItem is null)
                 {
                     existedItem = new BasketItem
@@ -133,16 +133,11 @@ namespace ProniaBB102Web.Controllers
 
            
 
-            return RedirectToAction(nameof(Index), "Home");
+            return RedirectToAction("BasketJson", "Cart");
         }
 
 
 
-        public async Task<IActionResult> GetBasket()
-        {
-           var basket= JsonConvert.DeserializeObject<List<BasketCookiesItemVM>>(Request.Cookies["Basket"]);
-
-            return Json(basket);
-        }
+       
     }
 }

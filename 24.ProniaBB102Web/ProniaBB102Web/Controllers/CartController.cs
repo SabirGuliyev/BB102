@@ -20,16 +20,24 @@ namespace ProniaBB102Web.Controllers
         }
         public async Task<IActionResult> Index()
         {
-
+            return View(await GetBasketAsync());
+        }
+        public async Task<IActionResult> BasketJson()
+        {
+            List<BasketItemVM> items = await GetBasketAsync();
+            return PartialView("_BasketPartialView",items);
+        }
+        public async Task<List<BasketItemVM>> GetBasketAsync()
+        {
             List<BasketItemVM> basketItems = new List<BasketItemVM>();
 
             if (User.Identity.IsAuthenticated)
             {
                 AppUser user = await _userManager.FindByNameAsync(User.Identity.Name);
-                if (user is null) return NotFound();
+                if (user is null) throw new Exception("User tapilmadi");
 
                 List<BasketItem> userItems = await _context.BasketItems
-                    .Where(b => b.AppUserId == user.Id)
+                    .Where(b => b.AppUserId == user.Id && b.OrderId == null)
                     .Include(b => b.Product)
                     .ThenInclude(p => p.ProductImages.Where(pi => pi.IsPrimary == true))
                     .ToListAsync();
@@ -87,8 +95,8 @@ namespace ProniaBB102Web.Controllers
                 }
             }
 
+            return basketItems;
 
-            return View(basketItems);
         }
     }
 }
