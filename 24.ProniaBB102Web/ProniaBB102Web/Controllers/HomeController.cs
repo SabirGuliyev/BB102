@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ProniaBB102Web.DAL;
+using ProniaBB102Web.Interfaces;
 using ProniaBB102Web.Models;
 using ProniaBB102Web.ViewModels;
 
@@ -13,16 +14,17 @@ namespace ProniaBB102Web.Controllers
     {
         private readonly AppDbContext _context;
         private readonly UserManager<AppUser> _userManager;
+        private readonly IEmailService _emailService;
 
-        public HomeController(AppDbContext context,UserManager<AppUser> userManager)
+        public HomeController(AppDbContext context,UserManager<AppUser> userManager,IEmailService emailService)
         {
             _context = context;
             _userManager = userManager;
+            _emailService = emailService;
         }
         public async Task<IActionResult> Index()
         {
-           
-           
+            
             //return Content(HttpContext.Session.GetString("Name")+"  " + Request.Cookies["Name"]);
             
             //Response.Cookies.Append("Name", "Yusif",new CookieOptions
@@ -53,7 +55,7 @@ namespace ProniaBB102Web.Controllers
         {
             AppUser user = await _userManager.FindByNameAsync(User.Identity.Name);
             if (user == null) return NotFound();
-            List<BasketItem> items= await _context.BasketItems.Where(b => b.AppUserId == user.Id && b.OrderId == null).ToListAsync();
+            List<BasketItem> items= await _context.BasketItems.Where(b => b.AppUserId == user.Id && b.OrderId == null).Include(b=>b.Product).ToListAsync();
             if (!ModelState.IsValid)
             {
                 ViewBag.BasketItems = items;
@@ -77,10 +79,38 @@ namespace ProniaBB102Web.Controllers
             await _context.Orders.AddAsync(order);
             await _context.SaveChangesAsync();
 
+            string body = @"
+                              <table>
+                                  < thead>
+                                      <tr>
+                                          <th>Product</th>
+                                          <th>Count</th>
+                                          <th>Price</th>
+                                      </tr>
+                                  </thead>
+                                  <tbody>";
 
+            foreach (var item in order.BasketItems)
+            {
+                body += @$" <tr>
+                               <td>{item.Product.Name}</td>
+                               <td>{item.Count}</td>
+                               <td>{item.Price}</td>
+                           </tr>";
+            }
+            body += @"</tbody>
+                              </table>";
+
+            _emailService.SendEmail(user.Email, "Order Placement", body,true);
 
 
             return RedirectToAction(nameof(Index));
+        }
+
+
+        public IActionResult ErrorPage(string errorMessage="error")
+        {
+            return View(model:errorMessage);
         }
     }
 }

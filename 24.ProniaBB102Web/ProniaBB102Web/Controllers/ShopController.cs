@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using ProniaBB102Web.DAL;
 using ProniaBB102Web.Models;
+using ProniaBB102Web.Utilities.Exceptions;
 using ProniaBB102Web.ViewModels;
 
 namespace ProniaBB102Web.Controllers
@@ -22,7 +23,7 @@ namespace ProniaBB102Web.Controllers
         {
             return View();
         }
-        public async Task<IActionResult> Details(int id)
+        public async Task<IActionResult> Details(int? id)
         {
             //string result = Request.Cookies["Name"];
 
@@ -35,7 +36,8 @@ namespace ProniaBB102Web.Controllers
 
 
             //HttpContext.Session.SetString("Name", "Azade");
-
+            if (id is null || id < 1) throw new WrongRequestException("Gonderilen Id deyeri duzgun deyil");
+          
 
             Product product = await _context.Products
                 .Include(p => p.ProductImages)
@@ -43,9 +45,9 @@ namespace ProniaBB102Web.Controllers
                 .Include(p => p.ProductTags).ThenInclude(pt=>pt.Tag)
                 .FirstOrDefaultAsync(p=>p.Id==id);
 
-            if (product == null) return NotFound();
-            
+            if (product == null) throw new NotFoundException("Mehsul tapilmadi");
 
+           
             List<Product> products = await _context.Products.Where(p => p.CategoryId == product.CategoryId && p.Id != product.Id).Include(p=>p.ProductImages).ToListAsync();
 
             DetailVM detailVM = new DetailVM

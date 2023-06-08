@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using ProniaBB102Web.DAL;
+using ProniaBB102Web.Interfaces;
+using ProniaBB102Web.Middlewares;
 using ProniaBB102Web.Models;
 using ProniaBB102Web.Services;
 
@@ -34,6 +36,7 @@ builder.Services.AddDbContext<AppDbContext>(opt =>
     opt.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
 });
 builder.Services.AddScoped<LayoutService>();
+builder.Services.AddScoped<IEmailService,EmailService>();
 
 var app = builder.Build();
 
@@ -42,6 +45,7 @@ app.UseAuthorization();
 
 app.UseSession();
 app.UseStaticFiles();
+app.UseMiddleware<GlobalExceptionHandlerMiddleware>();
 
 app.MapControllerRoute(
 
