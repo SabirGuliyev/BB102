@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using ProniaBB102Web.Interfaces;
 using ProniaBB102Web.Models;
 using ProniaBB102Web.Utilities.Enums;
 using ProniaBB102Web.ViewModels;
@@ -12,12 +13,14 @@ namespace ProniaBB102Web.Controllers
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
         private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly IEmailService _emailService;
 
-        public AccountController(UserManager<AppUser> userManager,SignInManager<AppUser> signInManager,RoleManager<IdentityRole> roleManager)
+        public AccountController(UserManager<AppUser> userManager,SignInManager<AppUser> signInManager,RoleManager<IdentityRole> roleManager,IEmailService emailService)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _roleManager = roleManager;
+            _emailService = emailService;
         }
         
         public IActionResult Register()
@@ -50,9 +53,31 @@ namespace ProniaBB102Web.Controllers
             }
 
             await _userManager.AddToRoleAsync(user, UserRole.Member.ToString());
-            await _signInManager.SignInAsync(user,false);
 
-            return RedirectToAction("Index","Home");
+            var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
+            var confirmationLink = Url.Action(nameof(ConfirmEmail), "Account", new {token,Email=user.Email},Request.Scheme);
+
+            await _emailService.SendEmail(user.Email,"Email Confirmation",confirmationLink);
+            //await _signInManager.SignInAsync(user,false);
+
+            return RedirectToAction(nameof(SuccessfullyRegistered),"Account");
+        }
+        public async Task<IActionResult> ConfirmEmail(string token, string email)
+        {
+            AppUser user =await _userManager.FindByEmailAsync(email);
+            if (user == null) return NotFound();
+            var result= await _userManager.ConfirmEmailAsync(user,token);
+
+            if (!result.Succeeded)
+            {
+                return BadRequest();
+            }
+            await _signInManager.SignInAsync(user,false);
+            return View();
+        }
+        public IActionResult SuccessfullyRegistered()
+        {
+            return View();
         }
         public IActionResult Login()
         {
@@ -85,6 +110,12 @@ namespace ProniaBB102Web.Controllers
             {
                 ModelState.AddModelError(String.Empty, "Login is not enable please try again later");
                 return View();
+            }
+            if (!existed.EmailConfirmed)
+            {
+                ModelState.AddModelError(String.Empty, "Please confirm your email");
+                return View();
+
             }
             if (!result.Succeeded)
             {
