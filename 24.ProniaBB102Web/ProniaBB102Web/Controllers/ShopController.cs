@@ -19,9 +19,40 @@ namespace ProniaBB102Web.Controllers
             _context = context;
             _userManager = userManager;
         }
-        public IActionResult Index()
+        public async Task<IActionResult> Index(string search,int? order,int? categoryId)
         {
-            return View();
+            IQueryable<Product> query = _context.Products.Include(p => p.ProductImages).AsQueryable();
+
+            switch (order)
+            {
+                case 1:
+                    query = query.OrderBy(p => p.Name);
+                    break;
+                case 2:
+                    query=query.OrderBy(p => p.Price);
+                    break;
+                case 3:
+                    query=query.OrderByDescending(p => p.Id);
+                    break;
+            }
+            if (!String.IsNullOrEmpty(search))
+            {
+                query=query.Where(p=>p.Name.ToLower().Contains(search.ToLower()));
+            }
+            if (categoryId!=null)
+            {
+                query = query.Where(p => p.CategoryId == categoryId);
+            }
+            ShopVM shopVM = new ShopVM
+            {
+                Categories=await _context.Categories.Include(c=>c.Products).ToListAsync(),
+                Products=await query.ToListAsync(),
+                CategoryId=categoryId,
+                Order=order,
+                Search=search
+            };
+           
+            return View(shopVM);
         }
         public async Task<IActionResult> Details(int? id)
         {
