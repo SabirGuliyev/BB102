@@ -1,4 +1,8 @@
-﻿@model OrderVM
+﻿
+@using Microsoft.Extensions.Options
+@using ProniaBB102Web.DAL
+@model OrderVM
+@inject IOptions<StripeSettings> Stripe
 @{
     decimal total = 0;
 }
@@ -27,7 +31,7 @@
             {
                 <div class="row">
                 <div class="col-lg-6 col-12">
-                    <form method="post">
+                    <form method="post" onchange="this.form.submit()">
                         <div class="checkbox-form">
                             <h3>Billing Details</h3>
                             <div class="row">
@@ -37,9 +41,16 @@
                                         <input asp-for="Address" placeholder="Address" />
                                     </div>
                                 </div>
-                                <div class="col-md-12">
-                                    <button type="submit" class="btn btn-secondary">Place Order</button>
-                                </div>
+                           <script src="//checkout.stripe.com/v2/checkout.js"
+                         class="stripe-button"
+                         data-key="@Stripe.Value.Publishablekey"
+                         data-amount="@ViewBag.Total"
+                         data-name="[Deveducate]"
+                         data-locale="en"
+                        data-discription="Sample charge"
+                        data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+                        data-zip-code="true">
+                        </script>
                             </div>
                         </div>
                     </form>

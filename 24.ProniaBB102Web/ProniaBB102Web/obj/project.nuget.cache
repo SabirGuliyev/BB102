@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3dFnP8nOHISfzDKR6jAcI+pPZeptmgwO0YR3MDUUp4fG5akVMxHrSqF9DQecBYFVe2QF8NWFx3bp1eH1sQKKyw==",
+  "dgSpecHash": "F3y4SZyF9vV11gUP9s+dkDjIepBgDRjUogpHvSleR20pGGwd4E75oO5OoFqy3WgshRVMy2MwbrMPTxi4CfXMEw==",
   "success": true,
   "projectFilePath": "C:\\Users\\sabir\\Desktop\\BB102 git\\24.ProniaBB102Web\\ProniaBB102Web\\ProniaBB102Web.csproj",
   "expectedPackageFiles": [
@@ -107,6 +107,7 @@
     "C:\\Users\\sabir\\.nuget\\packages\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\sabir\\.nuget\\packages\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\sabir\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\sabir\\.nuget\\packages\\stripe.net\\41.22.0\\stripe.net.41.22.0.nupkg.sha512",
     "C:\\Users\\sabir\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\sabir\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\sabir\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",

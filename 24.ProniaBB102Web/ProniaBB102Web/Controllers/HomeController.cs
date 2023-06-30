@@ -6,6 +6,7 @@ using ProniaBB102Web.DAL;
 using ProniaBB102Web.Interfaces;
 using ProniaBB102Web.Models;
 using ProniaBB102Web.ViewModels;
+using Stripe;
 
 namespace ProniaBB102Web.Controllers
 {
@@ -51,7 +52,7 @@ namespace ProniaBB102Web.Controllers
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> Checkout(OrderVM orderVM)
+        public async Task<IActionResult> Checkout(OrderVM orderVM,string stripeEmail,string stripeToken)
         {
             AppUser user = await _userManager.FindByNameAsync(User.Identity.Name);
             if (user == null) return NotFound();
@@ -76,6 +77,41 @@ namespace ProniaBB102Web.Controllers
                 Address=orderVM.Address
                 
             };
+
+            //Stripe
+            var optionCust = new CustomerCreateOptions
+            {
+                Email = stripeEmail,
+                Name = user.Name + " " + user.Surname,
+                Phone = "+994 50 66"
+            };
+            var serviceCust = new CustomerService();
+            Customer customer = serviceCust.Create(optionCust);
+
+            total = total * 100;
+
+            var optionsCharge = new ChargeCreateOptions
+            {
+
+                Amount = (long)total,
+                Currency = "USD",
+                Description = "Product Selling amount",
+                Source = stripeToken,
+                ReceiptEmail = stripeEmail
+
+
+            };
+            var serviceCharge = new ChargeService();
+            Charge charge = serviceCharge.Create(optionsCharge);
+
+            if (charge.Status != "succeeded")
+            {
+                ViewBag.BasketItems = items;
+                ModelState.AddModelError("Address", "Odenishde problem var");
+                return View();
+            }
+
+
             await _context.Orders.AddAsync(order);
             await _context.SaveChangesAsync();
 

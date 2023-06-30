@@ -5,6 +5,7 @@ using ProniaBB102Web.Interfaces;
 using ProniaBB102Web.Middlewares;
 using ProniaBB102Web.Models;
 using ProniaBB102Web.Services;
+using Stripe;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddSession(options =>
@@ -37,6 +38,7 @@ builder.Services.AddDbContext<AppDbContext>(opt =>
 {
     opt.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
 });
+builder.Services.Configure<StripeSettings>(builder.Configuration.GetSection("Stripe"));
 builder.Services.AddScoped<LayoutService>();
 builder.Services.AddScoped<IEmailService,EmailService>();
 
@@ -48,7 +50,7 @@ app.UseAuthorization();
 app.UseSession();
 app.UseStaticFiles();
 app.UseMiddleware<GlobalExceptionHandlerMiddleware>();
-
+StripeConfiguration.ApiKey = builder.Configuration["Stripe:Secretkey"];
 app.MapControllerRoute(
 
     name: "Areas",
